@@ -4,20 +4,20 @@ body {
   margin: 0 auto;
 }
 
-.StatusBar{
+/*.StatusBar{
 	width:100%;
 	height: 40px;
 	background-color: #000;
 	position: fixed;
     top: 0;
-}
+}*/
 
 .NavBar{
 	width:100%;
 	height: 88px;
 	background-color: #FFF;
 	position: fixed;
-    top: 40px;
+    top: 0px;
 }
 
 .hamburger{
@@ -49,7 +49,7 @@ h1{
 	height: 1260px;
 	background-color: #338378;
 	position: relative;
-    top: 128px;
+    top: 88px;
 }
 
 .MyCoursesContainer{
