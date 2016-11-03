@@ -1,0 +1,472 @@
+body {
+  min-height:736px;
+  min-width:414px;
+  margin: 0 auto;
+}
+
+.StatusBar{
+	width:100%;
+	height: 40px;
+	background-color: #000;
+	position: fixed;
+    top: 0;
+}
+
+.NavBar{
+	width:100%;
+	height: 88px;
+	background-color: #FFF;
+	position: fixed;
+    top: 40px;
+}
+
+.hamburger{
+    width: 45px;
+    height: 40px;
+    background-image: url(images/HamburgerMenu.png);
+    background-size: Cover;
+    position: absolute;
+    left: 32px;
+    top: 21px;
+
+}
+
+.AppName{
+	font size: 34px;
+	font-family: Segoe UI;
+	color:#338378;
+	text-align:center;
+	padding-top: 20px;
+
+}
+
+h1{
+	margin:0;
+}
+
+
+.main{
+	height: 1260px;
+	background-color: #338378;
+	position: relative;
+    top: 128px;
+}
+
+.MyCoursesContainer{
+	width: 92%;
+	height:400px;
+	position: relative;
+	top: 20px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.MyCoursesTitle{
+	width:100%;
+	background: #1fbba6;
+	font-family: Arial;
+	text-align:center;
+	color:#FFF;
+	position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.HomeLine{
+    width: 100%;
+    height: 10px;
+    background: #1e5048;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.MyCoursesList{
+	width: 100%;
+	height:300px;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.MyCoursesListItem{
+    width: 100%;
+    background: #FFF;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 5px;
+}
+
+.MyCoursesName{
+	font-family: Arial;
+    font-size: 28px;
+    color: #338378;
+    padding-left: 36px;
+    text-decoration:none;
+}
+
+.MyCoursesButton{
+	width: 35px;
+    height: 35px;
+    background-image: url(images/CoursesDetialButton.png);
+    background-size: Cover;
+    position: absolute;
+    right: 35px;
+}
+
+.MoreCoursesContainer{
+	width: 92%;
+	height:700px;
+	position: relative;
+	top: 50px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.MoreCoursesTitle{
+	width:100%;
+	background: #1fbba6;
+	font-family: Arial;
+	text-align:center;
+	color:#FFF;
+	position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.MoreCoursesList{
+	width: 100%;
+	height:600px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.MoreCoursesListItem{
+    width: 280px;
+    height: 280px;
+    background: #FFF;
+    margin: 10px;
+    float: left;
+}
+
+.MoreCoursesPic1{
+	width: 280px;
+    height: 280px;
+    background-image: url(images/IG-Strength.jpg);
+    background-size: Cover;
+    position: absolute;
+}
+
+.MoreCoursesPic2{
+	width: 280px;
+    height: 280px;
+    background-image: url(images/IG-Cardio.jpg);
+    background-size: Cover;
+    position: absolute;
+}
+
+.MoreCoursesPic3{
+	width: 280px;
+    height: 280px;
+    background-image: url(images/IG-Stretching.jpg);
+    background-size: Cover;
+    position: absolute;
+}
+
+.MoreCoursesPic4{
+	width: 280px;
+    height: 280px;
+    background-image: url(images/IG-Yoga.jpg);
+    background-size: Cover;
+    position: absolute;
+}
+
+.TabBar{
+	width: 100%;
+	height: 100px;
+	background-color: #1e4f48;
+	position:fixed;
+    bottom:0;
+}
+
+.TabBarLine{
+	width: 100%;
+	height: 10px;
+	background-color: #1fbba6;
+}
+
+.TabBarButtonContainer{
+	width: 100%;
+    height: 100px;
+}
+
+.TabBarButton{
+	float: left;
+	width: 25%;
+    height: 90px;
+}
+
+.Courese{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/Courses.png);
+    background-size: Cover;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.MyPlan{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/MyPlan.png);
+    background-size: Cover;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.MyState{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/MyState.png);
+    background-size: Cover;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.Circle{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/Circle.png);
+    background-size: Cover;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.Courese_h{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/Courses_h.png);
+    background-size: Cover;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.MyPlan_h{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/MyPlan_h.png);
+    background-size: Cover;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.MyState_h{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/MyState_h.png);
+    background-size: Cover;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.Circle_h{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/Circle_h.png);
+    background-size: Cover;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+
+/*My Plan*/
+
+.MyPlanForTodayContainer{
+	width: 92%;
+    height: 500px;
+    position: relative;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MyPlanForTodayLine{
+    width: 100%;
+    height: 20px;
+    background: #1fbba6;
+    position: relative;
+}
+
+.MyPlanForTodayBackground{
+	width:100%;
+	height:480px;
+	background-color: #fff;
+	position: relative;
+}
+
+.MyPlanForTodayTitle{
+	width: 100%;
+	height: 130px;
+	font-family: Arial;
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: center;
+	color:#1e5048;
+	line-height: 130px;
+}
+
+.MyPlanForTodayTitleLine{
+    width: 84%;
+    height: 2px;
+    background-color: #1fbba6;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MyPlanForTodayInfo{
+	width: 70%;
+	height: 250px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.MyPlanForTodayInfoText{
+	width: 70%;
+	height: 245px;
+	position: absolute;
+	float: left;
+	font-family: Arial;
+	font-size: 18pt;
+	color: #338378;
+	padding-top: 5px;
+}
+
+.MyPlanForTodayButtonContainer{
+	width: 40px;
+	height: 220px;
+	background-color: #fff;
+	position: relative;
+	float: right;
+	margin-top: 25px;
+}
+
+.MyPlanForTodayButton{
+	width:40px;
+	height: 40px;
+	background-image: url(images/Check.png);
+    float: right;
+    margin-bottom: 15px;
+}
+
+.MyPlanForTodayProgress{
+	width: 84%;
+	height: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.MyPlanForTodayProgressBackground{
+	width: 100%;
+	height:30px;
+	background-color: #338373;
+    position: relative;
+    top: 10px;
+}
+
+.MyPlanForTodayProgressScale{
+	width: 100%;
+	height: 30px;
+}
+
+.I{
+	width: 1px;
+	height: 30px;
+	background-color: #fff;
+	margin-left: 3.03%;
+	float: left;
+}
+
+.MyPlanForTodayProgressRed{
+	width: 20%;
+	height: 30px;
+	background-color:#ff866e;
+	position: absolute;
+}
+
+.MyPlanForTodayProgressText{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 25px;
+}
+
+.MyPlanForTodayProgressTextLeft{
+    position: relative;
+    float: left;
+    font-family: Arial;
+    font-size: 14pt;
+    color: #338378;
+}
+
+.MyPlanForTodayProgressTextRight{
+	position: relative;
+    float: right;
+    font-family: Arial;
+    font-size: 14pt;
+    color: #338378;
+}
+
+.StartContainer{
+	width: 100%;
+	height: 400px;
+	position: relative;
+    top: 20px;
+}
+
+.StartButtonContainer{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    top:70px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.StartButton{
+	width: 270px;
+    height: 270px;
+    background-image: url(images/StartButton.png);
+    background-size: Cover;
+    float:left;
+}
+
+.CourseTime{
+    width: 100%;
+    height: 50px;
+    font-family: Arial;
+    font-size: 18pt;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 95px;
+}
+
