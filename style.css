@@ -33,7 +33,7 @@ body {
 
 .AppName{
     font-family: Segoe UI;
-    font-size: 24px;
+    font-size: 18pt;
     color: #338378;
     text-align: center;
     padding-top: 33px;
@@ -46,7 +46,7 @@ h1{
 
 
 .main{
-	height: 1260px;
+	height: 1870px;
 	background-color: #338378;
 	position: relative;
     top: 132px;
@@ -54,27 +54,28 @@ h1{
 
 .MyCoursesContainer{
 	width: 92%;
-	height:400px;
+	height:600px;
 	position: relative;
-	top: 20px;
+	top: 30px;
 	margin-left: auto;
     margin-right: auto;
 }
 
 .MyCoursesTitle{
-	width:100%;
-	background: #1fbba6;
-	font-family: Arial;
-	text-align:center;
-	color:#FFF;
-	position: relative;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 100%;
+    background: #1fbba6;
+    font-family: Arial;
+    font-size: 16pt;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .HomeLine{
     width: 100%;
-    height: 10px;
+    height: 15px;
     background: #1e5048;
     text-align: center;
     margin-left: auto;
@@ -83,10 +84,10 @@ h1{
 }
 
 .MyCoursesList{
-	width: 100%;
-	height:300px;
-	position: relative;
-	margin-left: auto;
+    width: 100%;
+    height: 420px;
+    position: relative;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -94,31 +95,31 @@ h1{
     width: 100%;
     background: #FFF;
     position: relative;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 5px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-top: 10px;
 }
 
 .MyCoursesName{
-	font-family: Arial;
-    font-size: 28px;
+    font-family: Arial;
+    font-size: 26pt;
     color: #338378;
-    padding-left: 36px;
-    text-decoration:none;
+    padding-left: 40px;
+    text-decoration: none;
 }
 
 .MyCoursesButton{
-	width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     background-image: url(images/CoursesDetialButton.png);
     background-size: Cover;
     position: absolute;
-    right: 35px;
+    right: 40px;
 }
 
 .MoreCoursesContainer{
 	width: 92%;
-	height:700px;
+	height:1050px;
 	position: relative;
 	top: 50px;
 	margin-left: auto;
@@ -126,58 +127,59 @@ h1{
 }
 
 .MoreCoursesTitle{
-	width:100%;
-	background: #1fbba6;
-	font-family: Arial;
-	text-align:center;
-	color:#FFF;
-	position: relative;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 100%;
+    background: #1fbba6;
+    font-family: Arial;
+    font-size: 16pt;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .MoreCoursesList{
 	width: 100%;
-	height:600px;
+	height:1000px;
 	margin-left: auto;
     margin-right: auto;
 }
 
 .MoreCoursesListItem{
-    width: 280px;
-    height: 280px;
+    width: 420px;
+    height: 420px;
     background: #FFF;
-    margin: 10px;
+    margin: 15px;
     float: left;
 }
 
 .MoreCoursesPic1{
-	width: 280px;
-    height: 280px;
+	width: 420px;
+    height: 420px;
     background-image: url(images/IG-Strength.jpg);
     background-size: Cover;
     position: absolute;
 }
 
 .MoreCoursesPic2{
-	width: 280px;
-    height: 280px;
+	width: 420px;
+    height: 420px;
     background-image: url(images/IG-Cardio.jpg);
     background-size: Cover;
     position: absolute;
 }
 
 .MoreCoursesPic3{
-	width: 280px;
-    height: 280px;
+	width: 420px;
+    height: 420px;
     background-image: url(images/IG-Stretching.jpg);
     background-size: Cover;
     position: absolute;
 }
 
 .MoreCoursesPic4{
-	width: 280px;
-    height: 280px;
+	width: 420px;
+    height: 420px;
     background-image: url(images/IG-Yoga.jpg);
     background-size: Cover;
     position: absolute;
