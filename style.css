@@ -14,30 +14,30 @@ body {
 
 .NavBar{
 	width:100%;
-	height: 88px;
+	height: 132px;
 	background-color: #FFF;
 	position: fixed;
     top: 0px;
 }
 
 .hamburger{
-    width: 45px;
-    height: 40px;
+    width: 70px;
+    height: 63px;
     background-image: url(images/HamburgerMenu.png);
     background-size: Cover;
     position: absolute;
     left: 32px;
-    top: 23px;
+    top: 35px;
 
 }
 
 .AppName{
-	font size: 34px;
-	font-family: Segoe UI;
-	color:#338378;
-	text-align:center;
-	padding-top: 23px;
-    padding-bottom: 23px;
+    font-family: Segoe UI;
+    font-size: 24px;
+    color: #338378;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
 }
 
 h1{
@@ -49,7 +49,7 @@ h1{
 	height: 1260px;
 	background-color: #338378;
 	position: relative;
-    top: 88px;
+    top: 132px;
 }
 
 .MyCoursesContainer{
