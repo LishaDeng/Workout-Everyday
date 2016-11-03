@@ -185,7 +185,7 @@ h1{
 
 .TabBar{
 	width: 100%;
-	height: 100px;
+	height: 162px;
 	background-color: #1e4f48;
 	position:fixed;
     bottom:0;
@@ -193,104 +193,104 @@ h1{
 
 .TabBarLine{
 	width: 100%;
-	height: 10px;
+	height: 15px;
 	background-color: #1fbba6;
 }
 
 .TabBarButtonContainer{
-	width: 100%;
-    height: 100px;
+    width: 100%;
+    height: 147px;
 }
 
 .TabBarButton{
 	float: left;
 	width: 25%;
-    height: 90px;
+    height: 147px;
 }
 
 .Courese{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     background-image: url(images/Courses.png);
     background-size: Cover;
-    margin-top: 10px;
+    margin-top: 25px;
     position: absolute;
     margin-left: 7%;
     margin-right: 7%;
 }
 
 .MyPlan{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     background-image: url(images/MyPlan.png);
     background-size: Cover;
-    margin-top: 10px;
+    margin-top: 25px;
     position: absolute;
     margin-left: 7%;
     margin-right: 7%;
 }
 
 .MyState{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     background-image: url(images/MyState.png);
     background-size: Cover;
-    margin-top: 10px;
+    margin-top: 25px;
     position: absolute;
     margin-left: 7%;
     margin-right: 7%;
 }
 
 .Circle{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     background-image: url(images/Circle.png);
     background-size: Cover;
-    margin-top: 10px;
+    margin-top: 25px;
     position: absolute;
     margin-left: 7%;
     margin-right: 7%;
 }
 
 .Courese_h{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     background-image: url(images/Courses_h.png);
     background-size: Cover;
-    margin-top: 10px;
+    margin-top: 25px;
     position: absolute;
     margin-left: 7%;
     margin-right: 7%;
 }
 
 .MyPlan_h{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     background-image: url(images/MyPlan_h.png);
     background-size: Cover;
-    margin-top: 10px;
+    margin-top: 25px;
     position: absolute;
     margin-left: 7%;
     margin-right: 7%;
 }
 
 .MyState_h{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     background-image: url(images/MyState_h.png);
     background-size: Cover;
-    margin-top: 10px;
+    margin-top: 25px;
     position: absolute;
     margin-left: 7%;
     margin-right: 7%;
 }
 
 .Circle_h{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     background-image: url(images/Circle_h.png);
     background-size: Cover;
-    margin-top: 10px;
+    margin-top: 25px;
     position: absolute;
     margin-left: 7%;
     margin-right: 7%;
