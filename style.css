@@ -27,7 +27,7 @@ body {
     background-size: Cover;
     position: absolute;
     left: 32px;
-    top: 21px;
+    top: 23px;
 
 }
 
@@ -36,8 +36,8 @@ body {
 	font-family: Segoe UI;
 	color:#338378;
 	text-align:center;
-	padding-top: 20px;
-
+	padding-top: 23px;
+    padding-bottom: 23px;
 }
 
 h1{
