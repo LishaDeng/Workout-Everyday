@@ -4,6 +4,10 @@ body {
   margin: 0 auto;
 }
 
+p{
+    margin:0;
+}
+
 /*.StatusBar{
 	width:100%;
 	height: 40px;
@@ -53,7 +57,7 @@ h1{
 }
 
 .main2{
-    height: 1500px;
+    height: 1610px;
     background-color: #338378;
     position: relative;
     top: 132px;
@@ -475,5 +479,174 @@ h1{
     text-align: center;
     position: relative;
     top: 130px;
+}
+
+
+/*Onboarding Q1*/
+
+.Q1Container{
+    width: 92%;
+    height: 1200px;
+    position: relative;
+    top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Q1TitleContainer{
+    width: 100%;
+    height: 350px;
+    background: #1fbba6;
+    position: relative;
+}
+
+.Q1Title{
+    font-family: Arial;
+    font-size: 36pt;
+    font-weight: bold;
+    text-align: center;
+    color: #1e5048;
+    line-height: 70px;
+    top: 100px;
+    position: relative;
+}
+
+.Q1Background{
+    width: 100%;
+    height: 850px;
+    background: #fff;
+    position: relative;
+}
+
+.QuestionTitle{
+    width: 100%;
+    height:200px;
+    position: relative;
+    font-family: Arial;
+    font-size: 36pt;
+    text-align: center;
+    color: #1e5048;
+    line-height: 200px;
+}
+
+.Gernder{
+    width: 100%;
+    height:200px;
+    position: relative;
+    font-family: Arial;
+    font-size: 30pt;
+    text-align: center;
+    color: #1e5048;
+    line-height: 200px;
+}
+
+input[type='radio'].radio {
+    opacity: 0;
+    display: inline-block;
+    height: 60px; 
+}
+
+label.radio {
+    background: url(images/Radio.png) no-repeat;
+    height: 60px;
+    padding-left: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+input[type='radio'].radio:checked + .radio {
+    background:url(images/Radio_Check.png) no-repeat;
+}
+
+.Birth{
+    width: 100%;
+    height:200px;
+    text-align: center;
+}
+
+.Birth input{
+    width: 70%;
+    height: 160px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #338378;
+    text-align: center;
+    font-family: Arial;
+    font-size: 50pt;
+    color: #338378;
+}
+
+.Dots{
+    width: 30%;
+    height: 70px;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+}
+
+.DotSelect{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #1fbba6;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1fbba6;
+    float: left;
+}
+
+.Dot1{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+    margin-left: 18%;
+}
+
+.Dot2{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+    margin-left: 18%;
+}
+
+.Dot3{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: right;
+}
+
+.Next{
+    width: 100%;
+    height: 200px;
+    top: 110px;
+    position: relative;
+}
+
+.NextButton{
+    width: 80%;
+    height: 160px;
+    color:#1e4f48;
+    background-color: #1fbba6;
+    border-style:solid; 
+    border-width:15px; 
+    border-color:#fff;
+    margin: 0 auto;
+    font-family: Arial;
+    font-size: 50pt;
+    text-align: center;
+    line-height: 160px;
 }
 
