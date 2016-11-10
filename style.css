@@ -797,3 +797,58 @@ input[type='radio'].radio:checked + .radio {
     border-color: #1fbba6;
     float: right;
 }
+
+.ReasonCheckbox{
+    width: 100%;
+    height:600px;
+    position: relative;
+    font-family: Arial;
+    font-size: 40pt;
+    color: #1e5048;
+    line-height: 150px;
+}
+
+.ReasonCheckbox label { 
+    font-size: 42pt; 
+}
+
+.ReasonCheckbox { 
+    width: 100%;
+    height: 800px;
+    position: relative;
+    font-family: Arial;
+    color: #1e5048;
+    line-height: 125px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]+label {
+    display: inline-block;
+    width: 65%;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    left: 20%;
+    top: 75px;
+}
+
+label::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background:url(images/Radio.png) no-repeat;
+    vertical-align: middle;
+
+    margin-right: 100px;
+    -webkit-box-sizing:border-box;
+
+}
+
+input[type="checkbox"]:checked+label::before{
+    background:url(images/Radio_Check.png) no-repeat;
+
+}
