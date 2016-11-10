@@ -581,7 +581,7 @@ input[type='radio'].radio:checked + .radio {
     width: 30%;
     height: 70px;
     position: relative;
-    top: 80px;
+    top: 100px;
     margin: 0 auto;
 }
 
@@ -631,7 +631,7 @@ input[type='radio'].radio:checked + .radio {
 .Next{
     width: 100%;
     height: 180px;
-    top: 80px;
+    top: 100px;
     position: relative;
 }
 
