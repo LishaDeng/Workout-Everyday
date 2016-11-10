@@ -650,3 +650,48 @@ input[type='radio'].radio:checked + .radio {
     text-align: center;
     line-height: 150px;
 }
+
+
+/*Onboarding Q2*/
+.Q2Dot1{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+}
+
+.Q2DotSelect{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #1fbba6;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1fbba6;
+    float: left;
+    margin-left: 18%;
+}
+
+.Q2Dot2{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+    margin-left: 18%;
+}
+
+.Q2Dot3{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: right;
+}
