@@ -840,7 +840,7 @@ input[type='radio'].radio:checked + .radio {
 }
 
 .ReasonCheckbox label { 
-    font-size: 42pt; 
+    font-size: 40pt; 
 }
 
 .ReasonCheckbox { 
