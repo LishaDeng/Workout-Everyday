@@ -695,3 +695,105 @@ input[type='radio'].radio:checked + .radio {
     border-color: #FFF;
     float: right;
 }
+
+
+/*Onboarding Q3*/
+.Q3Dot1{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+}
+
+.Q3Dot2{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+    margin-left: 18%;
+}
+
+.Q3DotSelect{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #1fbba6;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1fbba6;
+    float: left;
+    margin-left: 18%;
+}
+
+.Q3Dot3{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: right;
+}
+
+
+
+/*Onboarding Q3*/
+.Q4Title{
+    font-family: Arial;
+    font-size: 42pt;
+    font-weight: bold;
+    text-align: center;
+    color: #1e5048;
+    line-height: 70px;
+    top: 50px;
+    position: relative;
+}
+
+.Q4Dot1{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+}
+
+.Q4Dot2{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+    margin-left: 18%;
+}
+
+.Q4Dot3{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+    margin-left: 18%;
+}
+
+.Q4DotSelect{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #1fbba6;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1fbba6;
+    float: right;
+}
