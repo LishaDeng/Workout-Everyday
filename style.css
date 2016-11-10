@@ -827,11 +827,11 @@ input[type='radio'].radio:checked + .radio {
 
 .ReasonCheckbox input[type="checkbox"]+label {
     display: inline-block;
-    width: 65%;
+    width: 70%;
     margin: 0 auto;
     text-align: left;
     position: relative;
-    left: 20%;
+    left: 17%;
     top: 75px;
 }
 
@@ -842,7 +842,7 @@ input[type='radio'].radio:checked + .radio {
     height: 60px;
     background:url(images/Radio.png) no-repeat;
     vertical-align: middle;
-    margin-right: 100px;
+    margin-right: 90px;
     -webkit-box-sizing:border-box;
 }
 
