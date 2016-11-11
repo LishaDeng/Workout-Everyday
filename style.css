@@ -20,8 +20,85 @@ p{
 
 .main_Login{
     width:100%;
-    height:1400px;
+    height:1743px;
     background-color:#2e2e2e;
+}
+
+.AppLogoLoginContainer{
+    width: 100%;
+    height:600px;
+
+}
+
+.AppLogoLogin{
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    background-image: url(images/AppLogo.png);
+    background-size: Cover;
+    position: relative;
+    top: 150px;
+}
+
+.EmailPassword{
+    width: 100%;
+    height:500px;
+ 
+}
+
+.LoginPageButton{
+    width: 100%;
+    height:643px;
+
+}
+
+.Email{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.Email input{
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    border-style: solid;
+    font-family: Arial;
+    font-size: 36pt;
+    color: #a4a4a4;
+    border-width: 10px;
+    border-color: transparent;
+}
+
+.Email input:focus{
+    border-width: 10px;
+    border-color: #1fbba6;
+}
+
+.Password{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+.Password input{
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    border-style: solid;
+    font-family: Arial;
+    font-size: 36pt;
+    color: #a4a4a4;
+    border-width: 10px;
+    border-color: transparent;
+
+}
+
+.Password input:focus{
+    border-width: 10px;
+    border-color: #1fbba6;
 }
 
 
