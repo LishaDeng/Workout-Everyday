@@ -46,12 +46,6 @@ p{
  
 }
 
-.LoginPageButton{
-    width: 100%;
-    height:643px;
-
-}
-
 .Email{
     width: 80%;
     height: 120px;
@@ -102,6 +96,454 @@ p{
     border-color: #1fbba6;
 }
 
+.ShowPassword{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    top: 80px;
+    position: relative;
+}
+
+.ShowPassword label { 
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 24pt; 
+    color:#7b7b7b;
+
+}
+
+.ShowPassword input[type="checkbox"]{
+    display: none;
+}
+
+.ShowPassword input[type="checkbox"]+label {
+    display: inline-block;
+    width: 70%;
+    position: relative;
+}
+
+.ShowPassword label::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background:url(images/UnShowPassword.png) no-repeat;
+    background-size: Cover;
+    vertical-align: middle;
+    margin-right: 10px;
+    -webkit-box-sizing:border-box;
+}
+
+.ShowPassword input[type="checkbox"]:checked+label::before{
+    background:url(images/ShowPassword.png) no-repeat;
+    background-size: Cover;
+
+}
+
+
+
+
+
+
+
+.LoginPageButton{
+    width: 100%;
+    height:643px;
+
+}
+
+
+
+
+/*Onboarding Q1*/
+
+.Q1Container{
+    width: 92%;
+    height: 1100px;
+    position: relative;
+    top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Q1TitleContainer{
+    width: 100%;
+    height: 300px;
+    background: #1fbba6;
+    position: relative;
+}
+
+.Q1Title{
+    font-family: Arial;
+    font-size: 42pt;
+    font-weight: bold;
+    text-align: center;
+    color: #1e5048;
+    line-height: 70px;
+    top: 85px;
+    position: relative;
+}
+
+.Q1Background{
+    width: 100%;
+    height: 800px;
+    background: #fff;
+    position: relative;
+}
+
+.QuestionTitle{
+    width: 100%;
+    height:180px;
+    position: relative;
+    font-family: Arial;
+    font-size: 42pt;
+    text-align: center;
+    color: #1e5048;
+    line-height: 200px;
+}
+
+.Gernder{
+    width: 100%;
+    height:180px;
+    position: relative;
+    font-family: Arial;
+    font-size: 40pt;
+    text-align: center;
+    color: #1e5048;
+    line-height: 150px;
+}
+
+input[type='radio'].radio {
+    opacity: 0;
+    display: inline-block;
+    height: 60px; 
+}
+
+label.radio {
+    background: url(images/Radio.png) no-repeat;
+    height: 60px;
+    padding-left: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+input[type='radio'].radio:checked + .radio {
+    background:url(images/Radio_Check.png) no-repeat;
+}
+
+.Birth{
+    width: 100%;
+    height:200px;
+    text-align: center;
+    line-height: 210px;
+}
+
+.Birth input{
+    width: 60%;
+    height: 130px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #338378;
+    text-align: center;
+    font-family: Arial;
+    font-size: 50pt;
+    color: #338378;
+}
+
+.Dots{
+    width: 30%;
+    height: 70px;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+}
+
+.DotSelect{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #1fbba6;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1fbba6;
+    float: left;
+}
+
+.Dot1{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+    margin-left: 18%;
+}
+
+.Dot2{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+    margin-left: 18%;
+}
+
+.Dot3{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: right;
+}
+
+.Next{
+    width: 100%;
+    height: 180px;
+    top: 140px;
+    position: relative;
+}
+
+.NextButton{
+    width: 70%;
+    height: 150px;
+    color: #1e4f48;
+    background-color: #1fbba6;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #fff;
+    margin: 0 auto;
+    font-family: Arial;
+    font-size: 50pt;
+    text-align: center;
+    line-height: 150px;
+}
+
+
+/*Onboarding Q2*/
+.Q2Dot1{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+}
+
+.Q2DotSelect{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #1fbba6;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1fbba6;
+    float: left;
+    margin-left: 18%;
+}
+
+.Q2Dot2{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+    margin-left: 18%;
+}
+
+.Q2Dot3{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: right;
+}
+
+#Q-container {
+    margin: 0 auto;
+    height: 700px;
+    width: 80%;
+    top: 65px;
+    position: relative;
+}
+#accordion input {
+    display: none;
+}
+
+#accordion label {
+    width: 100%;
+    height: 170px;
+    line-height: 170px;
+    font-size: 38pt;
+    text-align: center;
+    font-family: Arial;
+    color:#1e4f48;
+    border-radius: 0;
+    border: 5px solid;
+    border-color: #338378;
+    display: block;
+    margin-bottom: 65px;
+}
+
+#accordion input:checked + label {
+    background: #338378;
+    color: white;
+}
+
+
+/*Onboarding Q3*/
+.Q3Dot1{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+}
+
+.Q3Dot2{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+    margin-left: 18%;
+}
+
+.Q3DotSelect{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #1fbba6;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1fbba6;
+    float: left;
+    margin-left: 18%;
+}
+
+.Q3Dot3{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: right;
+}
+
+
+
+/*Onboarding Q4*/
+.Q4Title{
+    font-family: Arial;
+    font-size: 42pt;
+    font-weight: bold;
+    text-align: center;
+    color: #1e5048;
+    line-height: 70px;
+    top: 50px;
+    position: relative;
+}
+
+.Q4Dot1{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+}
+
+.Q4Dot2{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+    margin-left: 18%;
+}
+
+.Q4Dot3{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #FFF;
+    float: left;
+    margin-left: 18%;
+}
+
+.Q4DotSelect{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #1fbba6;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1fbba6;
+    float: right;
+}
+
+.ReasonCheckbox { 
+    width: 100%;
+    height: 800px;
+    position: relative;
+    font-family: Arial;
+    color: #1e5048;
+    line-height: 125px;
+}
+
+.ReasonCheckbox label { 
+    font-size: 40pt; 
+}
+
+.ReasonCheckbox input[type="checkbox"]{
+    display: none;
+}
+
+.ReasonCheckbox input[type="checkbox"]+label {
+    display: inline-block;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    left: 17%;
+    top: 75px;
+}
+
+.ReasonCheckbox label::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background:url(images/Radio.png) no-repeat;
+    vertical-align: middle;
+    margin-right: 90px;
+    -webkit-box-sizing:border-box;
+}
+
+.ReasonCheckbox input[type="checkbox"]:checked+label::before{
+    background:url(images/Radio_Check.png) no-repeat;
+
+}
 
 
 
@@ -574,402 +1016,4 @@ h1{
 }
 
 
-/*Onboarding Q1*/
 
-.Q1Container{
-    width: 92%;
-    height: 1100px;
-    position: relative;
-    top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.Q1TitleContainer{
-    width: 100%;
-    height: 300px;
-    background: #1fbba6;
-    position: relative;
-}
-
-.Q1Title{
-    font-family: Arial;
-    font-size: 42pt;
-    font-weight: bold;
-    text-align: center;
-    color: #1e5048;
-    line-height: 70px;
-    top: 85px;
-    position: relative;
-}
-
-.Q1Background{
-    width: 100%;
-    height: 800px;
-    background: #fff;
-    position: relative;
-}
-
-.QuestionTitle{
-    width: 100%;
-    height:180px;
-    position: relative;
-    font-family: Arial;
-    font-size: 42pt;
-    text-align: center;
-    color: #1e5048;
-    line-height: 200px;
-}
-
-.Gernder{
-    width: 100%;
-    height:180px;
-    position: relative;
-    font-family: Arial;
-    font-size: 40pt;
-    text-align: center;
-    color: #1e5048;
-    line-height: 150px;
-}
-
-input[type='radio'].radio {
-    opacity: 0;
-    display: inline-block;
-    height: 60px; 
-}
-
-label.radio {
-    background: url(images/Radio.png) no-repeat;
-    height: 60px;
-    padding-left: 100px;
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-input[type='radio'].radio:checked + .radio {
-    background:url(images/Radio_Check.png) no-repeat;
-}
-
-.Birth{
-    width: 100%;
-    height:200px;
-    text-align: center;
-    line-height: 210px;
-}
-
-.Birth input{
-    width: 60%;
-    height: 130px;
-    background-color: #fff;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #338378;
-    text-align: center;
-    font-family: Arial;
-    font-size: 50pt;
-    color: #338378;
-}
-
-.Dots{
-    width: 30%;
-    height: 70px;
-    position: relative;
-    top: 100px;
-    margin: 0 auto;
-}
-
-.DotSelect{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    background-color: #1fbba6;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #1fbba6;
-    float: left;
-}
-
-.Dot1{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFF;
-    float: left;
-    margin-left: 18%;
-}
-
-.Dot2{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFF;
-    float: left;
-    margin-left: 18%;
-}
-
-.Dot3{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFF;
-    float: right;
-}
-
-.Next{
-    width: 100%;
-    height: 180px;
-    top: 140px;
-    position: relative;
-}
-
-.NextButton{
-    width: 70%;
-    height: 150px;
-    color: #1e4f48;
-    background-color: #1fbba6;
-    border-style: solid;
-    border-width: 15px;
-    border-color: #fff;
-    margin: 0 auto;
-    font-family: Arial;
-    font-size: 50pt;
-    text-align: center;
-    line-height: 150px;
-}
-
-
-/*Onboarding Q2*/
-.Q2Dot1{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFF;
-    float: left;
-}
-
-.Q2DotSelect{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    background-color: #1fbba6;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #1fbba6;
-    float: left;
-    margin-left: 18%;
-}
-
-.Q2Dot2{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFF;
-    float: left;
-    margin-left: 18%;
-}
-
-.Q2Dot3{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFF;
-    float: right;
-}
-
-#Q-container {
-    margin: 0 auto;
-    height: 700px;
-    width: 80%;
-    top: 65px;
-    position: relative;
-}
-#accordion input {
-    display: none;
-}
-
-#accordion label {
-    width: 100%;
-    height: 170px;
-    line-height: 170px;
-    font-size: 38pt;
-    text-align: center;
-    font-family: Arial;
-    color:#1e4f48;
-    border-radius: 0;
-    border: 5px solid;
-    border-color: #338378;
-    display: block;
-    margin-bottom: 65px;
-}
-
-#accordion input:checked + label {
-    background: #338378;
-    color: white;
-}
-
-
-/*Onboarding Q3*/
-.Q3Dot1{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFF;
-    float: left;
-}
-
-.Q3Dot2{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFF;
-    float: left;
-    margin-left: 18%;
-}
-
-.Q3DotSelect{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    background-color: #1fbba6;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #1fbba6;
-    float: left;
-    margin-left: 18%;
-}
-
-.Q3Dot3{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFF;
-    float: right;
-}
-
-
-
-/*Onboarding Q4*/
-.Q4Title{
-    font-family: Arial;
-    font-size: 42pt;
-    font-weight: bold;
-    text-align: center;
-    color: #1e5048;
-    line-height: 70px;
-    top: 50px;
-    position: relative;
-}
-
-.Q4Dot1{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFF;
-    float: left;
-}
-
-.Q4Dot2{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFF;
-    float: left;
-    margin-left: 18%;
-}
-
-.Q4Dot3{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #FFF;
-    float: left;
-    margin-left: 18%;
-}
-
-.Q4DotSelect{
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    background-color: #1fbba6;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #1fbba6;
-    float: right;
-}
-
-.ReasonCheckbox{
-    width: 100%;
-    height:600px;
-    position: relative;
-    font-family: Arial;
-    font-size: 40pt;
-    color: #1e5048;
-    line-height: 150px;
-}
-
-.ReasonCheckbox label { 
-    font-size: 40pt; 
-}
-
-.ReasonCheckbox { 
-    width: 100%;
-    height: 800px;
-    position: relative;
-    font-family: Arial;
-    color: #1e5048;
-    line-height: 125px;
-}
-
-.ReasonCheckbox input[type="checkbox"]{
-    display: none;
-}
-
-.ReasonCheckbox input[type="checkbox"]+label {
-    display: inline-block;
-    width: 70%;
-    margin: 0 auto;
-    text-align: left;
-    position: relative;
-    left: 17%;
-    top: 75px;
-}
-
-.ReasonCheckbox label::before {
-    content: "";
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    background:url(images/Radio.png) no-repeat;
-    vertical-align: middle;
-    margin-right: 90px;
-    -webkit-box-sizing:border-box;
-}
-
-.ReasonCheckbox input[type="checkbox"]:checked+label::before{
-    background:url(images/Radio_Check.png) no-repeat;
-
-}
