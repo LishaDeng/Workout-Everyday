@@ -107,7 +107,7 @@ p{
 .ShowPassword label { 
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 24pt; 
+    font-size: 26pt; 
     color:#7b7b7b;
 
 }
@@ -118,7 +118,7 @@ p{
 
 .ShowPassword input[type="checkbox"]+label {
     display: inline-block;
-    width: 70%;
+    width: 50%;
     position: relative;
 }
 
@@ -137,7 +137,14 @@ p{
 .ShowPassword input[type="checkbox"]:checked+label::before{
     background:url(images/ShowPassword.png) no-repeat;
     background-size: Cover;
+}
 
+.ForgotPassword{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 26pt; 
+    color:#7b7b7b;
+    float: right;
 }
 
 
