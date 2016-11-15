@@ -26,7 +26,7 @@ p{
 
 .AppLogoLoginContainer{
     width: 100%;
-    height:600px;
+    height:550px;
 
 }
 
@@ -37,7 +37,7 @@ p{
     background-image: url(images/AppLogo.png);
     background-size: Cover;
     position: relative;
-    top: 150px;
+    top: 100px;
 }
 
 .EmailPassword{
@@ -56,17 +56,18 @@ p{
     width: 80%;
     height: 120px;
     margin: 0 auto;
+    border:0;
 }
 
 .Email input{
-    width: 97%;
+    width: 100%;
     height: 100px;
     background-color: #fff;
     border-style: solid;
     font-family: Arial;
     font-size: 36pt;
     color: #a4a4a4;
-    border-width: 10px;
+    border-width: 0px;
     border-color: transparent;
 }
 
@@ -84,14 +85,14 @@ p{
 }
 
 .Password input{
-    width: 97%;
+    width: 100%;
     height: 100px;
     background-color: #fff;
     border-style: solid;
     font-family: Arial;
     font-size: 36pt;
     color: #a4a4a4;
-    border-width: 10px;
+    border-width: 0px;
     border-color: transparent;
 
 }
