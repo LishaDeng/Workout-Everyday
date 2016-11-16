@@ -202,7 +202,7 @@ p{
 /*Creat Account*/
 .SocailMedia{
     width: 80%;
-    height: 350px;
+    height: 300px;
     margin: 0 auto;
 }
 
@@ -230,7 +230,7 @@ p{
 
 .SocailMediaButton{
     width: 80%;
-    height: 240px;
+    height: 200px;
     margin:0 auto;
 }
 
@@ -334,7 +334,7 @@ p{
     background:url(images/UnShowPassword.png) no-repeat;
     background-size: Cover;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 30px;
     -webkit-box-sizing:border-box;
 }
 
