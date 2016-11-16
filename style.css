@@ -17,6 +17,7 @@ p{
 }*/
 
 
+
 /*Login Page*/
 
 .main_Login{
@@ -198,6 +199,83 @@ p{
 
 
 
+/*Creat Account*/
+.SocailMedia{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.AccountInfo{
+    width: 80%;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.Submit{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.SocailMediaTitle{
+    width: 100%;
+    height:100px;
+    line-height: 100px;
+    font-family: Helvetica;
+    font-size:34pt;
+    font-weight: bold;
+    color:#1fbba6;
+}
+
+.SocailMediaButton{
+    width: 80%;
+    height: 240px;
+    margin:0 auto;
+}
+
+.SocailMediaButton1{
+    width: 24%;
+    height: 150px;
+    background:url(images/facebook.png) no-repeat;
+    background-size: Cover;
+    position: relative;
+    float: left;
+    top:30px;
+}
+
+.SocailMediaButton2{
+    width: 24%;
+    height: 150px;
+    background: url(images/Instagram.png) no-repeat;
+    background-size: Cover;
+    position: relative;
+    float: left;
+    left: 14%;
+    top:30px;
+}
+
+.SocailMediaButton3{
+    width: 24%;
+    height: 150px;
+    background:url(images/googleplus.png) no-repeat;
+    background-size: Cover;
+    position: relative;
+    float: left;
+    left: 28%;
+    top:30px;
+}
+
+.SocailMediaLine{
+    width: 100%;
+    height: 3px;
+    background-color: #1fbba6;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /*Onboarding Q1*/
 
 .Q1Container{
@@ -368,6 +446,8 @@ input[type='radio'].radio:checked + .radio {
 }
 
 
+
+
 /*Onboarding Q2*/
 .Q2Dot1{
     border-radius: 50%;
@@ -444,7 +524,10 @@ input[type='radio'].radio:checked + .radio {
 }
 
 
+
+
 /*Onboarding Q3*/
+
 .Q3Dot1{
     border-radius: 50%;
     width: 25px;
@@ -490,7 +573,9 @@ input[type='radio'].radio:checked + .radio {
 
 
 
+
 /*Onboarding Q4*/
+
 .Q4Title{
     font-family: Arial;
     font-size: 42pt;
@@ -884,6 +969,8 @@ h1{
     margin-left: 7%;
     margin-right: 7%;
 }
+
+
 
 
 /*My Plan*/
