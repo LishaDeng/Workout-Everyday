@@ -202,19 +202,19 @@ p{
 /*Creat Account*/
 .SocailMedia{
     width: 80%;
-    height: 400px;
+    height: 350px;
     margin: 0 auto;
 }
 
 .AccountInfo{
     width: 80%;
-    height: 900px;
+    height: 1000px;
     margin: 0 auto;
 }
 
 .Submit{
     width: 80%;
-    height: 500px;
+    height: 390px;
     margin: 0 auto;
 }
 
@@ -274,6 +274,100 @@ p{
     margin-left: auto;
     margin-right: auto;
 }
+
+.AccountInfoTitle{
+    width: 100%;
+    height:100px;
+    line-height: 100px;
+    font-family: Helvetica;
+    font-size:26pt;
+    font-weight: bold;
+    color:#7b7b7b;
+}
+
+.AccountInfo input{
+    width: 100%;
+    height: 130px;
+    background-color: #fff;
+    border-style: solid;
+    font-family: Arial;
+    font-size: 36pt;
+    color: #a4a4a4;
+    border-width: 0px;
+    border-color: transparent;
+}
+.AccountInfo input:focus{
+    border-width: 10px;
+    border-color: #1fbba6; 
+}
+
+.SubmitMoreEmail{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.SubmitMoreEmail label { 
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 26pt; 
+    color:#7b7b7b;
+
+}
+
+.SubmitMoreEmail input[type="checkbox"]{
+    display: none;
+}
+
+.SubmitMoreEmail input[type="checkbox"]+label {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.SubmitMoreEmail label::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background:url(images/UnShowPassword.png) no-repeat;
+    background-size: Cover;
+    vertical-align: middle;
+    margin-right: 10px;
+    -webkit-box-sizing:border-box;
+}
+
+.SubmitMoreEmail input[type="checkbox"]:checked+label::before{
+    background:url(images/ShowPassword.png) no-repeat;
+    background-size: Cover;
+}
+
+.SubmitButton{
+    width:100%;
+    height: 150px;
+    background-color: #1fbba6;
+    color:#FFF;
+    font-family: Helvetica;
+    font-size: 42pt;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 150px;
+    position: relative;
+}
+
+.GoToLogin{
+    width:100%;
+    height: 180px;
+    color:#FFF;
+    font-family: Helvetica;
+    font-size: 32pt;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 180px;
+    position: relative;
+}
+
 
 
 /*Onboarding Q1*/
