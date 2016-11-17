@@ -1121,12 +1121,12 @@ h1{
 
 .MyPlanForTodayInfoText{
     width: 70%;
-    height: 365px;
+    height: 300px;
     float: left;
     font-family: Arial;
     font-size: 26pt;
     color: #338378;
-    padding-top: 10px;
+    padding-top: 45px;
 }
 
 .MyPlanForTodayButtonContainer{
