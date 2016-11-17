@@ -840,7 +840,7 @@ input[type='radio'].radio:checked + .radio {
     height: 100px;
     line-height: 100px;
     text-align: center;
-    font-size: 24pt;
+    font-size: 26pt;
     font-family: Helvetica;
     color: #338378;
 }
@@ -869,6 +869,40 @@ input[type='radio'].radio:checked + .radio {
 .MyWorkoutInfoDetail{
     width: 90%;
     height:220px;
+    margin:0 auto;
+}
+
+.MyWorkoutInfoDetailName{
+    width: 22%;
+    height: 110px;
+    font-size: 26pt;
+    font-family: Helvetica;
+    color: #338378;
+    float: left;
+    margin-top: 65px;
+    margin-left: 5%;
+}
+
+.MyWorkoutInfoDetailName1{
+    width: 22%;
+    height: 110px;
+    font-size: 26pt;
+    font-family: Helvetica;
+    color: #338378;
+    float: left;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.MyWorkoutInfoDetailTime{
+    width:20%;
+    height: 110px;
+    font-size: 26pt;
+    font-family: Helvetica;
+    color: #338378;
+    float: right;
+    margin-top: 65px;
+    margin-right: 5%;
 }
 
 /*Courses*/
