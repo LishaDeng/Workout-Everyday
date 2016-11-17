@@ -8,6 +8,8 @@ function limit(element)
 }
 /*限制4位数字输入*/
 
+
+
 $.fn.center = function () {
   this.css("position","absolute");
   this.css("top", Math.max(0, (
@@ -28,3 +30,16 @@ setTimeout(function(){
   $("#overlay").fadeOut();
 }, 5000);
 /*开机画面停留*/
+
+
+
+function openNav() {
+   document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+   document.getElementById("mySidenav").style.width = "0";
+}
+
+
+/*侧面出菜单*/
