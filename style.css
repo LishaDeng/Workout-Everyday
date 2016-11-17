@@ -791,6 +791,17 @@ input[type='radio'].radio:checked + .radio {
 
 }
 
+.back{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/Back.png);
+    background-size: Cover;
+    position: absolute;
+    left: 32px;
+    top: 35px;
+
+}
+
 .AppName{
     font-family: Segoe UI;
     font-size: 18pt;
