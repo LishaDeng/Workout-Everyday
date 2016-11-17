@@ -202,7 +202,7 @@ p{
 /*Creat Account*/
 .SocailMedia{
     width: 80%;
-    height: 300px;
+    height: 280px;
     margin: 0 auto;
 }
 
@@ -230,40 +230,40 @@ p{
 
 .SocailMediaButton{
     width: 80%;
-    height: 200px;
+    height: 180px;
     margin:0 auto;
 }
 
 .SocailMediaButton1{
-    width: 24%;
-    height: 150px;
+    width: 20%;
+    height: 125px;
     background:url(images/facebook.png) no-repeat;
     background-size: Cover;
     position: relative;
     float: left;
-    top:30px;
+    top:10px;
 }
 
 .SocailMediaButton2{
-    width: 24%;
-    height: 150px;
+    width: 20%;
+    height: 125px;
     background: url(images/Instagram.png) no-repeat;
     background-size: Cover;
     position: relative;
     float: left;
-    left: 14%;
-    top:30px;
+    left: 20%;
+    top:10px;
 }
 
 .SocailMediaButton3{
-    width: 24%;
-    height: 150px;
+    width: 20%;
+    height: 125px;
     background:url(images/googleplus.png) no-repeat;
     background-size: Cover;
     position: relative;
     float: left;
-    left: 28%;
-    top:30px;
+    left: 40%;
+    top:10px;
 }
 
 .SocailMediaLine{
