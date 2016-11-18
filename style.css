@@ -1387,3 +1387,129 @@ h1{
 
 
 
+
+/*My Plan Video*/
+
+.MyPlanVideo{
+    width: 92%;
+    height: 1200px;
+    position: relative;
+    top: 30px;
+    margin:0 auto;
+}
+
+.VideoControl{
+    width: 92%;
+    height: 170px;
+    position: relative;
+    top: 55px;
+    margin:0 auto;
+    background-color: #1fbba6;
+}
+
+.MyPlanVideoLine{
+    width: 100%;
+    height: 30px;
+    background: #1fbba6;
+    position: relative;
+}
+
+.MyPlanVideoBackground{
+    width: 100%;
+    height: 1170px;
+    background-color: #fff;
+    position: relative;
+}
+
+.MyPlanVideoTitle{
+    width: 100%;
+    height: 100px;
+    font-family: Tahoma;
+    font-size: 44pt;
+    color: #338378;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.GetReady{
+    width: 100%;
+    height: 100px;
+    font-family: Tahoma;
+    font-size: 38pt;
+    color: #ff866e;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.Video{
+    width: 90%;
+    height: 500px;
+    background-color: #1fbba6;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+
+.VideoControlButton{
+    width: 20%;
+    height: 170px;
+    float: left;
+}
+
+.PreviousVideo{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/previous.png);
+    background-size: Cover;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.PlayVideo{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/play.png);
+    background-size: Cover;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.NextVideo{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/next.png);
+    background-size: Cover;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.LikeVideo{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/like.png);
+    background-size: Cover;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.ShareVideo{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/share.png);
+    background-size: Cover;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 50px;
+}
