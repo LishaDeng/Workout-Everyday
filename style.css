@@ -2011,8 +2011,8 @@ input[type='radio'].radio:checked + .radio {
 }
 
 .GIFInfo{
-    width: 75%;
-    height: 1300px;
+    width: 74%;
+    height: 1270px;
     margin: 0 auto;
     background-image: url(images/ImageGIF.gif);
     background-size: Cover;
@@ -2049,30 +2049,30 @@ input[type='radio'].radio:checked + .radio {
     height: 150px;
     position: relative;
     margin: 0 auto;
-    top: 115px;
+    top: 120px;
 }
 
 .GIFButton1{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     background-image: url(images/settingGreen.png);
     background-size: Cover;
     float: left;
 }
 
 .GIFButton2{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     background-image: url(images/downloadGreen.png);
     background-size: Cover;
     float: left;
     position: relative;
-    left: 17%;
+    left: 24%;
 }
 
 .GIFButton3{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     background-image: url(images/shareGreen.png);
     background-size: Cover;
     float: right;
