@@ -66,3 +66,14 @@ function alertSet(e) {
 }
 alertSet('');
 /*倒计时*/
+
+
+
+function openGIFImage() {
+    document.getElementById("myGIFImage").style.width = "100%";
+}
+
+function closeGIFImage() {
+    document.getElementById("myGIFImage").style.width = "0";
+}
+/*打开GIF图片*/
