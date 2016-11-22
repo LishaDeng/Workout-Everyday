@@ -76,4 +76,13 @@ function openGIFImage() {
 function closeGIFImage() {
     document.getElementById("myGIFImage").style.width = "0";
 }
-/*打开GIF图片*/
+/*打开图片*/
+
+function openGIF() {
+    document.getElementById("myGIF").style.width = "100%";
+}
+
+function closeGIF() {
+    document.getElementById("myGIF").style.width = "0";
+}
+/*打开GIF*/

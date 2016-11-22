@@ -1991,3 +1991,90 @@ input[type='radio'].radio:checked + .radio {
     right: 10px;
     font-size: 36px;
 }
+
+.GIF {
+    height: 1610px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 134px;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.GIFBG{
+    height: 1610px;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.85;
+    position: absolute;
+}
+
+.GIFInfo{
+    width: 75%;
+    height: 1300px;
+    margin: 0 auto;
+    background-image: url(images/ImageGIF.gif);
+    background-size: Cover;
+    position: relative;
+    top: 80px;
+}
+
+.GIF a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.GIF a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.GIF .closeGIFbtn {
+    width:90px;
+    height:90px;
+    background-image: url(images/X.png);
+    background-size: Cover;
+    position: absolute;
+    top: 35px;
+    right: 65px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.GIFButtonContainer{
+    width: 70%;
+    height: 150px;
+    position: relative;
+    margin: 0 auto;
+    top: 115px;
+}
+
+.GIFButton1{
+    width: 150px;
+    height: 150px;
+    background-image: url(images/settingGreen.png);
+    background-size: Cover;
+    float: left;
+}
+
+.GIFButton2{
+    width: 150px;
+    height: 150px;
+    background-image: url(images/downloadGreen.png);
+    background-size: Cover;
+    float: left;
+    position: relative;
+    left: 17%;
+}
+
+.GIFButton3{
+    width: 150px;
+    height: 150px;
+    background-image: url(images/shareGreen.png);
+    background-size: Cover;
+    float: right;
+}
+
