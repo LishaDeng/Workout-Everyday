@@ -86,3 +86,14 @@ function closeGIF() {
     document.getElementById("myGIF").style.width = "0";
 }
 /*打开GIF*/
+
+
+
+function openCamera() {
+    document.getElementById("myCameraPhoto").style.width = "100%";
+}
+
+function closeCamera() {
+    document.getElementById("myCameraPhoto").style.width = "0";
+}
+/*打开相机*/

@@ -28,11 +28,28 @@
 				</div>
 			</div>
 		</div>
+
+		<div id="myCameraPhoto" class="CameraPhoto">
+			<div class="CameraPhotoBG"></div>
+			<div class="CameraPhotoButtonBG"></div>
+			<div class="CameraPhotoButton">
+				<div class="TakePhotoButton">
+					<a href="" class="TakePhoto" style="text-decoration: none;color:#000;">Take Photo</a>
+				</div>
+				<div class="TakePhotoButton">
+				<a href="CameraRoll.html" class="ChoosePhoto" style="text-decoration: none;color:#000;">Choose from Photo</a>
+				</div>
+				<div class="CancelButton">
+	        	<a href="javascript:void(0)" class="Cancel" style="text-decoration: none;color:#000;" onclick="closeCamera()">Cancel</a>
+	        	</div>
+        	</div>
+		</div>
+
 	</div>
 
     <div class="NavBar">
 	    <div class="hamburger"></div>
-	    <div class="camera"></div>
+	    <div class="camera"onclick="openCamera()"></div>
     	<div class="AppName">
     		<h1>WORKOUT EVERYDAY</h1>
     	</div>

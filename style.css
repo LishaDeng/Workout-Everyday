@@ -2208,3 +2208,60 @@ input[type='radio'].radio:checked + .radio {
     background:url(images/likedPoster.png) no-repeat;
     background-size: Cover;
 }
+
+.CameraPhoto{
+    height: 1610px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 134px;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.CameraPhotoBG{
+    height: 1610px;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.85;
+    position: absolute;
+}
+
+.CameraPhotoButtonBG{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 1207px;
+    background-color: #fff;
+    opacity: 0.6;
+}
+
+.CameraPhotoButton{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 1147px;
+}
+
+.TakePhotoButton{
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    background-color: #fff;
+    font-family: Helvetica;
+    font-size: 40pt;
+    text-align: center;
+}
+
+.CancelButton{
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    background-color: #fff;
+    font-family: Helvetica;
+    font-size: 40pt;
+    text-align: center;
+    position: relative;
+    top:10px;
+}
+
