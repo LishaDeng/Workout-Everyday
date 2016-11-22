@@ -26,6 +26,14 @@ p{
     top: 0px;
 }
 
+.NavBarGreen{
+    width:100%;
+    height: 132px;
+    background-color: #1fbba6;
+    position: fixed;
+    top: 0px;
+}
+
 .hamburger{
     width: 70px;
     height: 63px;
@@ -78,6 +86,27 @@ p{
     top: 32px; 
 }
 
+.Cancle{
+    width: 150px;
+    height: 134px;
+    line-height: 134px;
+    font-family: Helvetica;
+    font-size: 34pt;
+    position: absolute;
+    left: 32px;
+}
+
+.Send{
+    width: 150px;
+    height: 134px;
+    line-height: 134px;
+    font-family: Helvetica;
+    font-size: 34pt;
+    position: absolute;
+    right: 32px;
+    text-align: right;
+}
+
 .AppName{
     font-family: Segoe UI;
     font-size: 18pt;
@@ -90,6 +119,30 @@ p{
 h1{
     margin:0;
 }
+
+/*Main*/
+.main{
+    height: 1870px;
+    background-color: #338378;
+    position: relative;
+    top: 132px;
+}
+
+.main2{
+    height: 1610px;
+    background-color: #338378;
+    position: relative;
+    top: 132px;
+}
+
+.main3{
+    height: 1610px;
+    background-color: #fff;
+    position: relative;
+    top: 132px;
+}
+
+
 
 
 
@@ -1031,20 +1084,6 @@ input[type='radio'].radio:checked + .radio {
 }
 
 /*Courses*/
-
-.main{
-	height: 1870px;
-	background-color: #338378;
-	position: relative;
-    top: 132px;
-}
-
-.main2{
-    height: 1610px;
-    background-color: #338378;
-    position: relative;
-    top: 132px;
-}
 
 .MyCoursesContainer{
 	width: 92%;
@@ -2336,3 +2375,84 @@ input[type='radio'].radio:checked + .radio {
     left: 820px;
     opacity: 0;
 }
+
+
+
+
+
+/*Camera Roll Video*/
+
+.CameraRollVideo{
+    width: 100%;
+    height:1637px; 
+    background:url(images/CameraRoll-selectVideo.jpg) no-repeat;
+    background-size: Cover;
+}
+
+.SelectVideoDoneButton{
+    width: 150px;
+    height: 140px;
+    font-size: 90pt;
+    position: absolute;
+    top: 1520px;
+    left: 820px;
+    opacity: 0;
+}
+
+
+
+
+
+/*New Poster Pic*/
+
+.TypeText{
+    width: 86%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+}
+
+.TypeText input{
+    width: 100%;
+    height: 100px;
+    color: #9e9e9e;
+    font-family: Helvetica;
+    font-size: 40pt;
+    border-width: 0;
+}
+
+.TypeText input:focus{
+    outline: none;
+}
+
+.ChooseImageContainer{
+    width: 86%;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.ChooseImage{
+    width: 250px;
+    height: 250px;
+    margin-left: 3%;
+    margin-right: 3%;
+    float: left;
+}
+
+.ChooseImage1{
+    width: 250px;
+    height: 170px;
+    background:url(images/Image1.jpg) no-repeat;
+    background-size: Cover;
+}
+
+.ChooseImage2{
+    width: 250px;
+    height: 250px;
+    background:url(images/addImage.png) no-repeat;
+    background-size: Cover;
+}
+
+
+
