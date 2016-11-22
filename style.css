@@ -1904,27 +1904,27 @@ input[type='radio'].radio:checked + .radio {
 }
 
 .Image1{
-    width: 250px;
-    height: 450px;
+    width: 260px;
+    height: 470px;
     float: left;
     background-image: url(images/GiFImages1.jpg);
     background-size: Cover;
 }
 
 .Image2{
-    width: 250px;
-    height: 450px;
+    width: 260px;
+    height: 470px;
     float: left;
-    margin-left: 3%;
+    margin-left: 6%;
     background-image: url(images/GiFImages2.jpg);
     background-size: Cover;
 }
 
 .Image3{
-    width: 250px;
-    height: 450px;
+    width: 260px;
+    height: 470px;
     float: left;
-    margin-left: 3%;
+    margin-left: 6%;
     background-image: url(images/GiFImages3.jpg);
     background-size: Cover;
 }
@@ -1979,4 +1979,15 @@ input[type='radio'].radio:checked + .radio {
     right: 45px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+.GIFImage .nextGIFImagebtn {
+    width: 30px;
+    height: 50px;
+    background-image: url(images/right.png);
+    background-size: Cover;
+    position: absolute;
+    top: 750px;
+    right: 10px;
+    font-size: 36px;
 }
