@@ -2276,3 +2276,63 @@ input[type='radio'].radio:checked + .radio {
     background-size: Cover;
 }
 
+.GoBackButton{
+    width: 150px;
+    height: 140px;
+    font-size: 90pt;
+    position: absolute;
+    left:70px;
+    opacity: 0;
+}
+
+.CancelBackButton{
+    width: 150px;
+    height: 140px;
+    font-size: 90pt;
+    position: absolute;
+    right:10px;
+    opacity: 0;
+}
+
+.SelectPicButton{
+    width: 150px;
+    height: 140px;
+    font-size: 90pt;
+    position: absolute;
+    top: 1290px;
+    left: 400px;
+    opacity: 0;
+}
+
+.SelectVideoButton{
+    width: 150px;
+    height: 140px;
+    font-size: 90pt;
+    position: absolute;
+    top: 1290px;
+    left: 155px;
+    opacity: 0;
+}
+
+
+
+
+
+/*Camera Roll Pic*/
+
+.CameraRollPic{
+    width: 100%;
+    height:1637px; 
+    background:url(images/CameraRoll-selectPic.jpg) no-repeat;
+    background-size: Cover;
+}
+
+.SelectPicDoneButton{
+    width: 150px;
+    height: 140px;
+    font-size: 90pt;
+    position: absolute;
+    top: 1520px;
+    left: 820px;
+    opacity: 0;
+}
