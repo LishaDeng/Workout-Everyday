@@ -2433,25 +2433,72 @@ input[type='radio'].radio:checked + .radio {
 }
 
 .ChooseImage{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin-left: 3%;
     margin-right: 3%;
     float: left;
 }
 
 .ChooseImage1{
-    width: 250px;
-    height: 170px;
+    width: 200px;
+    height: 135px;
     background:url(images/Image1.jpg) no-repeat;
     background-size: Cover;
+    position: relative;
+    top:30px;
 }
 
 .ChooseImage2{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background:url(images/addImage.png) no-repeat;
     background-size: Cover;
+}
+
+.TextLine{
+    width: 86%;
+    height: 3px;
+    background-color: #1fbba6;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.LocationContainer{
+    width: 86%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top:30px;
+}
+
+.LocationIcon{
+    width: 70px;
+    height: 70px;
+    background:url(images/location.png) no-repeat;
+    background-size: Cover;
+    position: absolute;
+}
+
+.LocationText{
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    font-family: Helvetica;
+    font-size: 34pt;
+    color:#1fbba6;
+    position: absolute;
+    left: 10%;
+}
+
+.ChooseLocationIcon{
+    width: 50px;
+    height: 50px;
+    background:url(images/rightGreen.png) no-repeat;
+    background-size: Cover;
+    position: absolute;
+    float: right;
 }
 
 
