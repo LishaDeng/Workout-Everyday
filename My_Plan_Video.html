@@ -15,7 +15,40 @@
 	    		<div class="MyPlanVideoTitle">Diamond Push-ups</div>
 	    		<div class="GetReady">GET READY</div>
 	    		<div class="Video"></div>
-	    		<div class="TimeSet"></div>
+	    		<div class="TimeSet">
+	    			<div id="js-alert-box" class="alert-box"> 
+						  <svg class="alert-circle" width="234" height="234">
+						    <circle cx="117" cy="117" r="108" fill="#FFF" stroke="#b5b5b5" stroke-width="10"></circle>
+						    <circle id="js-sec-circle" class="alert-sec-circle" cx="117" cy="117" r="108" fill="transparent" stroke="#1fbba6" stroke-width="10" transform="rotate(-90 117 117)"></circle>
+						  </svg>
+
+						  <div id="js-sec-text" class="alert-sec-text"></div>
+						  <div class="alert-body">
+						    <div id="js-alert-head" class="alert-head"></div>
+					</div>
+				</div>
+				</div>
+						<script>
+						function alertSet(e) {
+						    document.getElementById("js-alert-box").style.display = "block",
+						    document.getElementById("js-alert-head").innerHTML = e;
+						    var t = 45,
+						    n = document.getElementById("js-sec-circle");
+						    document.getElementById("js-sec-text").innerHTML = t,
+						    setInterval(function() {
+						        if (0 == t){
+									location.href="#";//#时间到后跳转地址
+								}else {
+						            t -= 1,
+						            document.getElementById("js-sec-text").innerHTML = t;
+						            var e = Math.round(t / 45 * 735);
+						            n.style.strokeDashoffset = e - 735
+						        }
+						    },
+						    970);
+						}
+						alertSet('');
+						</script>
 	    		<div class="NextNote"></div>
 	    		<div class="NextCourseTitle"></div>
 	    	</div>
