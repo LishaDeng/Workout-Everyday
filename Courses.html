@@ -10,13 +10,6 @@
 
 
   <body>
-	<div id="mySidenav" class="sidenav">
-	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	  <a href="#">About</a>
-	  <a href="#">Services</a>
-	  <a href="#">Clients</a>
-	  <a href="#">Contact</a>
-	</div>
 
     <div class="main">
 		<div class="MyCoursesContainer">
@@ -65,30 +58,41 @@
     </div>
 
     <div class="NavBar">
-		<div class="hamburger" onclick="openNav()"></div>
+		<div class="hamburger" onclick="openNav() "></div>
     	<div class="AppName">
     		<h1>WORKOUT EVERYDAY</h1>
     	</div>
     </div>
 
+	<div id="mySidenav" class="sidenav">
+		<div class="mySidenavContainer">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
+			<a href="#">My Account</a>
+			<a href="#">Notification</a>
+			<a href="#">Setting</a>
+			<a href="#">Help &#38 Feedback</a>
+			<a href="#">About Us</a>
+		</div>
+	</div>
+
     <div class="TabBar">
-			<div class="TabBarLine">
+		<div class="TabBarLine">
+		</div>
+		<div class="TabBarButtonContainer">
+			<div class="TabBarButton">
+				<a href class="Courese_h"></a>
 			</div>
-			<div class="TabBarButtonContainer">
-				<div class="TabBarButton">
-					<a href class="Courese_h"></a>
-				</div>
-				<div class="TabBarButton">
-					<a href="My_Plan.html" class="MyPlan"></a>
-				</div>
-				<div class="TabBarButton">
-					<a href class="MyState"></a>
-				</div>
-				<div class="TabBarButton">
-					<a href class="Circle"></a>
-				</div>
+			<div class="TabBarButton">
+				<a href="My_Plan.html" class="MyPlan"></a>
+			</div>
+			<div class="TabBarButton">
+				<a href class="MyState"></a>
+			</div>
+			<div class="TabBarButton">
+				<a href class="Circle"></a>
 			</div>
 		</div>
+	</div>
 
   </body>
 </html>

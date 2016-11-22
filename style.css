@@ -18,23 +18,29 @@ p{
 
 /*Side Menu*/
 .sidenav {
-    height: 100%;
+    height: 1736px;
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 0;
     left: 0;
-    background-color: #111;
+    top:134px;
+    background-color: #000;
+    opacity:0.6;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+}
+
+.mySidenavContainer{
+    width: 60%;
+    height: 1736px;
+    background-color: #1fbba6;
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #FFF;
     display: block;
     transition: 0.3s
 }
@@ -44,11 +50,13 @@ p{
 }
 
 .sidenav .closebtn {
+    width: 70px;
+    height: 70px;
+    background-image: url(images/Back.png);
+    background-size: Cover;
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    left: 32px;
+    top: 32px;
 }
 
 @media screen and (max-height: 450px) {
