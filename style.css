@@ -1477,7 +1477,7 @@ h1{
     color: #338378;
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 30px;
 }
 
 .GetReady{
@@ -1488,7 +1488,7 @@ h1{
     color: #ff866e;
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 20px;
 }
 
 .Video{
@@ -1497,7 +1497,6 @@ h1{
     background-color: #1fbba6;
     margin: 0 auto;
     position: relative;
-    top: 50px;
 }
 
 
@@ -1564,9 +1563,8 @@ h1{
 
 .TimeSet{
     width: 100%;
-    height: 220px;
+    height: 170px;
     position: relative;
-    top: 50px;
 }
 
 /*Timeset*/
