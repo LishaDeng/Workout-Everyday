@@ -1645,7 +1645,7 @@ h1{
     height: 300px;
     float: left;
     font-family: Arial;
-    font-size: 26pt;
+    font-size: 30pt;
     color: #fff;
     padding-top: 45px;
 }
@@ -1655,16 +1655,16 @@ h1{
     height: 320px;
     position: relative;
     float: right;
-    margin-top: 45px;
+    margin-top: 30px;
 }
 
 .WorkoutResultButton{
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     background-image: url(images/checked.png);
     background-size: cover;
     float: right;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .WorkoutResultProgress{
@@ -1672,7 +1672,7 @@ h1{
     height: 150px;
     position: relative;
     margin: 0 auto;
-    top:470px;
+    top:500px;
 }
 
 .WorkoutResultProgressBackground{
@@ -1714,7 +1714,7 @@ h1{
     position: relative;
     float: left;
     font-family: Arial;
-    font-size: 20pt;
+    font-size: 25pt;
     color: #fff;
 }
 
@@ -1722,6 +1722,6 @@ h1{
     position: relative;
     float: right;
     font-family: Arial;
-    font-size: 20pt;
+    font-size: 25pt;
     color: #fff;
 }
