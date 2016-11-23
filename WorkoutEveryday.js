@@ -54,7 +54,7 @@ function alertSet(e) {
     document.getElementById("js-sec-text").innerHTML = t,
     setInterval(function() {
         if (0 == t){
-      location.href="#";//#时间到后跳转地址
+      location.href="Workout_Result.html";//#时间到后跳转地址
     }else {
             t -= 1,
             document.getElementById("js-sec-text").innerHTML = t;
