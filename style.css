@@ -2280,7 +2280,7 @@ input[type='radio'].radio:checked + .radio {
     height: 400px;
     width: 100%;
     position: relative;
-    top: 1147px;
+    top: 1100px;
 }
 
 .TakePhotoButton{
@@ -2291,6 +2291,8 @@ input[type='radio'].radio:checked + .radio {
     font-family: Helvetica;
     font-size: 40pt;
     text-align: center;
+    position: relative;
+    top:5px;
 }
 
 .CancelButton{
@@ -2302,7 +2304,7 @@ input[type='radio'].radio:checked + .radio {
     font-size: 40pt;
     text-align: center;
     position: relative;
-    top:10px;
+    top:15px;
 }
 
 
