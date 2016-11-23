@@ -2310,7 +2310,7 @@ input[type='radio'].radio:checked + .radio {
 /*Camera Roll*/
 .CameraRoll{
     width: 100%;
-    height:1637px; 
+    height:1688px; 
     background:url(images/CameraRoll.jpg) no-repeat;
     background-size: Cover;
 }
@@ -2361,7 +2361,7 @@ input[type='radio'].radio:checked + .radio {
 
 .CameraRollPic{
     width: 100%;
-    height:1637px; 
+    height:1688px; 
     background:url(images/CameraRoll-selectPic.jpg) no-repeat;
     background-size: Cover;
 }
@@ -2384,7 +2384,7 @@ input[type='radio'].radio:checked + .radio {
 
 .CameraRollVideo{
     width: 100%;
-    height:1637px; 
+    height:1688px; 
     background:url(images/CameraRoll-selectVideo.jpg) no-repeat;
     background-size: Cover;
 }
@@ -2613,6 +2613,39 @@ input[type='radio'].radio:checked + .radio {
     outline: none;
 }
 
+
+
+
+/*Circle with video*/
+
+.PostContainerVideo{
+    width: 92%;
+    height: 730px;
+    position: relative;
+    top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.PostVideoImage{
+    width: 100%;
+    height: 500px;
+    background-image: url(images/Video2.jpg);
+    background-size: Cover;
+}
+
+
+
+
+
+/*Circle with video*/
+
+.PostImage2{
+    width: 100%;
+    height: 500px;
+    background-image: url(images/Image1.jpg);
+    background-size: Cover;
+}
 
 
 
