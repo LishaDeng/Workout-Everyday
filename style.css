@@ -153,30 +153,27 @@ h1{
     position: fixed;
     z-index: 1;
     left: 0;
-    top:134px;
-    background-color: #000;
-    opacity:0.6;
+    top:0;
     overflow-x: hidden;
-    transition: 0.5s;
 }
 
 .mySidenavContainer{
     width: 60%;
     height: 1736px;
+    position: absolute;
+    top:134px;
+    z-index: 2;
     background-color: #1fbba6;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #FFF;
-    display: block;
-    transition: 0.3s
 }
 
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
+}
+
+.sidenavCloseBtn{
+    width: 134px;
+    height: 134px;
+    background-color: #fff;
 }
 
 .sidenav .closebtn {
@@ -188,6 +185,93 @@ h1{
     left: 32px;
     top: 32px;
 }
+
+.sidenavBackground{
+    height: 1736px;
+    width: 100%;
+    position: absolute;
+    top:134px;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.mySidenavMenu{
+    width: 100%;
+    height: 150px;
+}
+
+.MenuBtnAccout{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/Account.png);
+    background-size: Cover;
+    position: absolute;
+    left: 45px;
+    top: 42px;
+}
+
+.MenuBtnNotification{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/Notification.png);
+    background-size: Cover;
+    position: absolute;
+    left: 45px;
+    top: 190px;
+}
+
+.MenuBtnSetting{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/Setting.png);
+    background-size: Cover;
+    position: absolute;
+    left: 45px;
+    top: 345px;
+}
+
+.MenuBtnQ{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/Q.png);
+    background-size: Cover;
+    position: absolute;
+    left: 45px;
+    top: 500px;
+}
+
+.MenuBtnAbout{
+    width: 70px;
+    height: 70px;
+    background-image: url(images/Info.png);
+    background-size: Cover;
+    position: absolute;
+    left: 45px;
+    top: 652px;
+}
+
+.MenuText {
+    width: 70%;
+    height: 150px;
+    line-height: 150px;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 34pt;
+    color: #FFF;
+    display: block;
+    position: absolute;
+    left: 25%;
+}
+
+.MenuLine{
+    width: 90%;
+    height: 3px;
+    background-color: #338378;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
