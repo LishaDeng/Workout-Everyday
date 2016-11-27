@@ -210,16 +210,6 @@ h1{
     top: 42px;
 }
 
-.MenuBtnNotification{
-    width: 70px;
-    height: 70px;
-    background-image: url(images/Notification.png);
-    background-size: Cover;
-    position: absolute;
-    left: 45px;
-    top: 190px;
-}
-
 .MenuBtnSetting{
     width: 70px;
     height: 70px;
@@ -227,7 +217,7 @@ h1{
     background-size: Cover;
     position: absolute;
     left: 45px;
-    top: 345px;
+    top: 190px;
 }
 
 .MenuBtnQ{
@@ -237,7 +227,7 @@ h1{
     background-size: Cover;
     position: absolute;
     left: 45px;
-    top: 500px;
+    top: 345px;
 }
 
 .MenuBtnAbout{
@@ -247,7 +237,7 @@ h1{
     background-size: Cover;
     position: absolute;
     left: 45px;
-    top: 652px;
+    top: 500px;
 }
 
 .MenuText {
