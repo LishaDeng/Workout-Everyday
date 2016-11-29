@@ -15,9 +15,9 @@
 	    		<div class="MyPlanVideoTitle">Diamond Push-ups</div>
 	    		<div class="GetReady">GET READY</div>
 	    		<div class="Video">
-	    			<video height="490px" controls>
+	    			<video height="490px" wekkit-playsinline>
 					    <source src="images/PushUp.mp4" type="video/mp4">
-					</video>
+					4</video>
     			</div>
 	    		<div class="TimeSet">
 	    			<div id="js-alert-box" class="alert-box"> 
@@ -36,14 +36,15 @@
 						function alertSet(e) {
 						    document.getElementById("js-alert-box").style.display = "block",
 						    document.getElementById("js-alert-head").innerHTML = e;
-						    var t = 45, pause = 0,
+						    var t = 45;
+                            pause = 0;//建立一个全局变量，这用;号比较好
 						    n = document.getElementById("js-sec-circle");
 						    document.getElementById("js-sec-text").innerHTML = t,
 						    setInterval(function() {
 						        if (0 == t){
 									location.href="Workout_Result.html";//#时间到后跳转地址
 								}else {
-						            t -= 1;
+						            if (pause == 0){t -= 1;};//如果pause = 0, 继续计时，否则暂停
 						            document.getElementById("js-sec-text").innerHTML = t;
 						            var e = Math.round(t / 45 * 735);
 						            n.style.strokeDashoffset = e - 735
@@ -55,18 +56,17 @@
 						</script>
 	    		<div class="NextNote">NEXT:</div>
 	    		<div class="NextCourseTitle">Crunches - 2 mins</div>
-	    	</div>
+                
+
+        	</div>
     	</div>
 
 	    <div class="VideoControl">
 	    	<div class="VideoControlButton">
 	    		<a href="" class="PreviousVideo"></a>
 	    	</div>
-	    	<div class="VideoControlButton" onclick="function toggleAlert() {
-	    		if (pause==0);{pause=1;}
-	    		else{pause=0;}
-	    	}">
-	    		<a href="" class="PlayVideo"></a>
+	    	<div class="VideoControlButton" >
+	    		<div class="PlayVideo" onclick="toggleAlert()"></div>
 	    	</div>
 	    	<div class="VideoControlButton">
 	    		<a href="" class="NextVideo"></a>
@@ -80,7 +80,7 @@
 	    </div>
 
 		
-	</div>
+
 
     <div class="NavBar">
 	    <div class="hamburger"></div>
@@ -108,8 +108,13 @@
 			</div>
 		</div>
 	</div>
-
+<script Src="WorkoutEveryday.js"></script>
+<script> function toggleAlert(){
+	    		if (pause == 0){pause = 1;}
+                else{pause = 0;};
+            }
+</script>
   </body>
 </html>
 
-<script Src="WorkoutEveryday.js"></script>
+

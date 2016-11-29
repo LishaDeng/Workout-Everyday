@@ -46,7 +46,7 @@ function closeNav() {
 
 
 
-function alertSet(e) {
+/*function alertSet(e) {
     document.getElementById("js-alert-box").style.display = "block",
     document.getElementById("js-alert-head").innerHTML = e;
     var t = 45,
@@ -64,7 +64,7 @@ function alertSet(e) {
     },
     970);
 }
-alertSet('');
+alertSet('');*/
 /*倒计时*/
 
 
