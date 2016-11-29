@@ -2074,6 +2074,47 @@ input[type=range]::-webkit-slider-thumb {
 
 
 
+
+
+/*Courses Detail*/
+
+.CourseDetailTitle{
+    width: 90%;
+    height: 180px;
+    line-height: 180px;
+    margin: 0 auto;
+    font-family: Helvetica;
+    font-size: 42pt;
+    font-weight: bold;
+    color: #8bcec8;
+}
+
+.CourseDetailInfo p{
+    width: 90%;
+    height: 400px;
+    line-height: 50px;
+    margin: 0 auto;
+    font-family: Helvetica;
+    font-size: 30pt;
+    color: #fff;
+}
+
+.AddCourseBtn{
+    width: 80%;
+    height: 150px;
+    background-color: #1e4f48;
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 42pt;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 150px;
+    position: relative;
+    top:50px;
+}
+
+
+
 /*My Plan*/
 
 .MyPlanForTodayContainer{
