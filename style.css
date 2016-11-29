@@ -1580,7 +1580,7 @@ input[type=range]::-webkit-slider-thumb {
     height: 500px;
     margin: 0 auto;
     position: relative;
-    top:50px;
+    top:30px;
     background-color: #fff;
 }
 
@@ -1592,7 +1592,7 @@ input[type=range]::-webkit-slider-thumb {
     font-size: 34pt;
     color: #FFF;
     position: relative;
-    top:120px;
+    top:100px;
 }
 
 .ReplyEmailAddress{
@@ -1601,7 +1601,7 @@ input[type=range]::-webkit-slider-thumb {
     margin: 0 auto;
     border:0;
     position: relative;
-    top:120px;
+    top:80px;
 }
 
 .ReplyEmailAddress input{
