@@ -1648,7 +1648,18 @@ input[type=range]::-webkit-slider-thumb {
     line-height: 300px;
     font-family: Helvetica;
     font-size: 52pt;
-    color:#1e4f48;
+    color:#8bcec8;
+    font-weight: bold;
+}
+
+.AboutTitle2{
+    width: 84%;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+    font-family: Helvetica;
+    font-size: 30pt;
+    color:#8bcec8;
     font-weight: bold;
 }
 
@@ -1668,7 +1679,7 @@ input[type=range]::-webkit-slider-thumb {
     background-image: url(images/AboutUs.png);
     background-size: Cover;
     position:relative;
-    top: 200px;
+    top:200px;
 }
 
 
