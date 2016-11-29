@@ -1624,8 +1624,8 @@ input[type=range]::-webkit-slider-thumb {
 .SentBtn{
     width: 80%;
     height: 150px;
-    background-color: #fff;
-    color: #1fbba6;
+    background-color: #1e4f48;
+    color: #fff;
     font-family: Helvetica;
     font-size: 42pt;
     text-align: center;
