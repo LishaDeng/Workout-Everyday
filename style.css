@@ -2168,10 +2168,37 @@ input[type=range]::-webkit-slider-thumb {
     top: 20px;
 }
 
-.Video{
+.Video1{
     width: 90%;
     height: 480px;
     background-image: url(images/GIF1.gif);
+    background-size: Cover;
+    margin: 0 auto;
+    position: relative;
+}
+
+.Video2{
+    width: 90%;
+    height: 480px;
+    background-image: url(images/GIF2.gif);
+    background-size: Cover;
+    margin: 0 auto;
+    position: relative;
+}
+
+.Video3{
+    width: 90%;
+    height: 480px;
+    background-image: url(images/GIF3.gif);
+    background-size: Cover;
+    margin: 0 auto;
+    position: relative;
+}
+
+.Video4{
+    width: 90%;
+    height: 480px;
+    background-image: url(images/GIF4.jpg);
     background-size: Cover;
     margin: 0 auto;
     position: relative;
@@ -2203,8 +2230,6 @@ input[type=range]::-webkit-slider-thumb {
     margin-left: 6%;
     margin-top: 50px;
 }
-
-
 
 .PlayVideo label { 
 
@@ -2251,13 +2276,48 @@ input[type=range]::-webkit-slider-thumb {
 .LikeVideo{
     width: 70px;
     height: 70px;
-    background-image: url(images/like.png);
-    background-size: Cover;
     margin: 0 auto;
     position: absolute;
     margin-left: 6%;
     margin-top: 50px;
 }
+
+.LikeVideo label { 
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 26pt; 
+    color:#7b7b7b;
+
+}
+
+.LikeVideo input[type="checkbox"]{
+    display: none;
+}
+
+.LikeVideo input[type="checkbox"]+label {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+
+.LikeVideo label::before {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background:url(images/like.png) no-repeat;
+    background-size: Cover;
+    vertical-align: middle;
+    margin-right: 10px;
+    -webkit-box-sizing:border-box;
+}
+
+.LikeVideo input[type="checkbox"]:checked+label::before{
+    background:url(images/likedRed.png) no-repeat;
+    background-size: Cover;
+}
+
+
 
 .ShareVideo{
     width: 70px;
@@ -2268,6 +2328,37 @@ input[type=range]::-webkit-slider-thumb {
     position: absolute;
     margin-left: 6%;
     margin-top: 50px;
+}
+
+
+/*Share Courses*/
+
+.ShareVideoCourses{
+    width: 86%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    background: url(images/PushUPImage.jpg) no-repeat;
+    background-size: Cover;
+}
+
+.TextLineVideo1{
+    width: 86%;
+    height: 3px;
+    background-color: #1fbba6;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 120px;
+}
+
+.LocationVideoContainer1{
+    width: 86%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
 }
 
 .TimeSet{
@@ -3271,6 +3362,18 @@ input[type=range]::-webkit-slider-thumb {
     width: 100%;
     height: 500px;
     background-image: url(images/Image1.jpg);
+    background-size: Cover;
+}
+
+
+
+
+
+/*Location*/
+.ChooseLocation{
+    width: 100%;
+    height: 1000px;
+    background-image: url(images/ChooseLocation.png);
     background-size: Cover;
 }
 

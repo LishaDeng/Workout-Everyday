@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="style.css"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+  </head>
+
+  <body>
+	<div class="main2">
+	    <div class="MyPlanVideo">
+	        <div class="MyPlanVideoLine"></div>
+	    	<div class="MyPlanVideoBackground">
+	    		<div class="MyPlanVideoTitle">Diamond Push-ups</div>
+	    		<div class="GetReady">GET READY</div>
+	    		<div class="Video1">
+    			</div>
+	    		<div class="TimeSet">
+	    			<div id="js-alert-box" class="alert-box"> 
+						  <svg class="alert-circle" width="234" height="234">
+						    <circle cx="117" cy="117" r="108" fill="#FFF" stroke="#1fbba6" stroke-width="10"></circle>
+						    <circle id="js-sec-circle" class="alert-sec-circle" cx="117" cy="117" r="108" fill="transparent" stroke="#b5b5b5" stroke-width="10" transform="rotate(-90 117 117)"></circle>
+						  </svg>
+
+						  <div id="js-sec-text" class="alert-sec-text"></div>
+						  <div class="alert-body">
+						    <div id="js-alert-head" class="alert-head"></div>
+					</div>
+				</div>
+				</div>
+						<script>
+						function alertSet(e) {
+						    document.getElementById("js-alert-box").style.display = "block",
+						    document.getElementById("js-alert-head").innerHTML = e;
+						    var t = 36;
+                            pause = 0;//建立一个全局变量，这用;号比较好
+						    n = document.getElementById("js-sec-circle");
+						    document.getElementById("js-sec-text").innerHTML = t,
+						    setInterval(function() {
+						        if (0 == t){
+									location.href="My_Plan_Video2.html";//#时间到后跳转地址
+								}else {
+						            if (pause == 0){t -= 1;};//如果pause = 0, 继续计时，否则暂停
+						            document.getElementById("js-sec-text").innerHTML = t;
+						            var e = Math.round(t / 36 * 735);
+						            n.style.strokeDashoffset = e - 735
+						        }
+						    },
+						    970);
+						}
+						alertSet('');
+						</script>
+	    		<div class="NextNote">NEXT:</div>
+	    		<div class="NextCourseTitle">Crunches - 31s</div>
+                
+
+        	</div>
+    	</div>
+
+	    <div class="VideoControl">
+	    	<div class="VideoControlButton">
+	    		<a href="" class="PreviousVideo"></a>
+	    	</div>
+	    	<div class="VideoControlButton" >
+	    		<div class="PlayVideo" >
+	    			<input type="checkbox" onclick="toggleAlert()"value="guangpan" name="choose" id="guangpan">
+					<label for="guangpan"></label>
+	    		</div>
+	    	</div>
+	    	<div class="VideoControlButton">
+	    		<a href="My_Plan_Video2.html" class="NextVideo"></a>
+	    	</div>
+	    	<div class="VideoControlButton">
+	    		<div class="LikeVideo">
+	    			<input type="checkbox" value="LikeVideo1" name="LikeVideo1" id="LikeVideo1">
+					<label for="LikeVideo1"></label>
+	    		</div>
+	    	</div>
+	    	<div class="VideoControlButton">
+	    		<a href="Share_Course1.html" class="ShareVideo"></a>
+	    	</div>
+	    </div>
+
+		
+
+
+    <div class="NavBar">
+	    <div class="hamburger" onclick="openNav() "></div>
+	    <!-- <div class="music"></div> -->
+    	<div class="AppName">
+    		<h1>WORKOUT EVERYDAY</h1>
+    	</div>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+		<div class="sidenavBackground"></div>
+		<div class="sidenavCloseBtn">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
+		</div>
+		<div class="mySidenavContainer">
+			<div class="mySidenavMenu">
+				<div class="MenuBtnAccout"></div>
+				<a href="My_Account.html" class="MenuText">My Account</a>
+			</div>
+			<div class="MenuLine"></div>
+			<div class="mySidenavMenu">
+				<div class="MenuBtnSetting"></div>
+				<a href="Setting.html" class="MenuText">Setting</a>
+			</div>
+			<div class="MenuLine"></div>
+			<div class="mySidenavMenu">
+				<div class="MenuBtnQ"></div>
+				<a href="Help_Feedback.html" class="MenuText">Help &#38; FeedBack</a>
+			</div>
+			<div class="MenuLine"></div>
+			<div class="mySidenavMenu">
+				<div class="MenuBtnAbout"></div>
+				<a href="About_Us.html" class="MenuText">About Us</a>
+			</div>
+			<div class="MenuLine"></div>
+			
+		</div>
+	</div>
+
+	<div class="TabBar">
+		<div class="TabBarLine">
+		</div>
+		<div class="TabBarButtonContainer">
+			<div class="TabBarButton">
+				<a href="Courses.html" class="Courese"></a>
+			</div>
+			<div class="TabBarButton">
+				<a href class="MyPlan_h"></a>
+			</div>
+			<div class="TabBarButton">
+				<a href="My_State.html" class="MyState"></a>
+			</div>
+			<div class="TabBarButton">
+				<a href="Circle.html" class="Circle"></a>
+			</div>
+		</div>
+	</div>
+<script Src="WorkoutEveryday.js"></script>
+<script> function toggleAlert(){
+	    		if (pause == 0){pause = 1;}
+                else{pause = 0;};
+            }
+</script>
+  </body>
+</html>
+
+<script Src="WorkoutEveryday.js"></script>
