@@ -158,6 +158,13 @@ h1{
     top: 132px;
 }
 
+.main4{
+    height: 1950px;
+    background-color: #338378;
+    position: relative;
+    top: 132px;
+}
+
 
 
 
@@ -1935,6 +1942,98 @@ input[type=range]::-webkit-slider-thumb {
     margin-right: 7%;
 }
 
+
+
+
+
+/*Strength*/
+
+.CoursesList{
+    width: 100%;
+    height: 1220px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CoursesListItem{
+    width: 100%;
+    background: #FFF;
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-top: 10px;
+}
+
+.CoursesName{
+    font-family: Arial;
+    font-size: 30pt;
+    color: #338378;
+    padding-left: 280px;
+    text-decoration: none;
+}
+
+.CoursesImage{
+    width: 200px;
+    height: 150px;
+    background-color: #1e4f48;
+    position: absolute;
+    top: 38px;
+    left: 3%;
+}
+
+.PremiumCourseText{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30pt;
+    color:#fff; 
+    position: relative;
+    top:30px;
+}
+
+.PremiumCourseLine{
+    width: 100%;
+    height: 3px;
+    background-color: #1fbba6;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    top:10px;
+}
+
+.PayButton99{
+    width: 120px;
+    height: 80px;
+    background-image: url(images/99D.png);
+    background-size: Cover;
+    position: absolute;
+    right: 40px;
+    top: 74px;
+}
+
+.PayButton4{
+    width: 120px;
+    height: 80px;
+    background-image: url(images/4D.png);
+    background-size: Cover;
+    position: absolute;
+    right: 40px;
+    top: 74px;
+}
+
+.PayButton12{
+    width: 120px;
+    height: 80px;
+    background-image: url(images/12D.png);
+    background-size: Cover;
+    position: absolute;
+    right: 40px;
+    top: 74px;
+}
 
 
 
