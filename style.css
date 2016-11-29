@@ -2045,7 +2045,21 @@ input[type=range]::-webkit-slider-thumb {
     font-size: 42pt;
     color: #fff;
     position: relative;
-    top: 170px;
+    top: 350px;
+}
+
+.PayBtn{
+    width: 80%;
+    height: 150px;
+    background-color: #1e4f48;
+    color: #fff;
+    font-family: Helvetica;
+    font-size: 42pt;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 150px;
+    position: relative;
+    top: 380px;
 }
 
 
