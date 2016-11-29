@@ -1982,6 +1982,16 @@ input[type=range]::-webkit-slider-thumb {
     left: 3%;
 }
 
+.CoursesButton {
+    width: 80px;
+    height: 80px;
+    background-image: url(images/CoursesDetialButton.png);
+    background-size: Cover;
+    position: absolute;
+    right: 40px;
+    top:74px;
+}
+
 .PremiumCourseText{
     width: 100%;
     height: 100px;
