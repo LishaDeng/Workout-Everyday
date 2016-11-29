@@ -15,7 +15,7 @@
 	    		<div class="MyPlanVideoTitle">Diamond Push-ups</div>
 	    		<div class="GetReady">GET READY</div>
 	    		<div class="Video">
-	    			<video height="490px" wekkit-playsinline>
+	    			<video height="490px" controls>
 					    <source src="images/PushUp.mp4" type="video/mp4">
 					4</video>
     			</div>
@@ -36,14 +36,14 @@
 						function alertSet(e) {
 						    document.getElementById("js-alert-box").style.display = "block",
 						    document.getElementById("js-alert-head").innerHTML = e;
-						    var t = 45,
+						    var t = 45, pause = 0,
 						    n = document.getElementById("js-sec-circle");
 						    document.getElementById("js-sec-text").innerHTML = t,
 						    setInterval(function() {
 						        if (0 == t){
 									location.href="Workout_Result.html";//#时间到后跳转地址
 								}else {
-						            t -= 1,
+						            t -= 1;
 						            document.getElementById("js-sec-text").innerHTML = t;
 						            var e = Math.round(t / 45 * 735);
 						            n.style.strokeDashoffset = e - 735
@@ -62,7 +62,10 @@
 	    	<div class="VideoControlButton">
 	    		<a href="" class="PreviousVideo"></a>
 	    	</div>
-	    	<div class="VideoControlButton">
+	    	<div class="VideoControlButton" onclick="function toggleAlert() {
+	    		if (pause==0);{pause=1;}
+	    		else{pause=0;}
+	    	}">
 	    		<a href="" class="PlayVideo"></a>
 	    	</div>
 	    	<div class="VideoControlButton">
