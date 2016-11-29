@@ -36,7 +36,7 @@
 						function alertSet(e) {
 						    document.getElementById("js-alert-box").style.display = "block",
 						    document.getElementById("js-alert-head").innerHTML = e;
-						    var t = 45;
+						    var t = 36;
                             pause = 0;//建立一个全局变量，这用;号比较好
 						    n = document.getElementById("js-sec-circle");
 						    document.getElementById("js-sec-text").innerHTML = t,
@@ -46,7 +46,7 @@
 								}else {
 						            if (pause == 0){t -= 1;};//如果pause = 0, 继续计时，否则暂停
 						            document.getElementById("js-sec-text").innerHTML = t;
-						            var e = Math.round(t / 45 * 735);
+						            var e = Math.round(t / 36 * 735);
 						            n.style.strokeDashoffset = e - 735
 						        }
 						    },
