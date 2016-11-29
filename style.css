@@ -1176,7 +1176,7 @@ input[type='radio'].radio:checked + .radio {
 
 
 
-/*Notification*/
+/*Setting*/
 .Niotification{
     width: 84%;
     height: 200px;
@@ -1186,7 +1186,7 @@ input[type='radio'].radio:checked + .radio {
 }
 
 .AllowNotification{
-    width: 50%;
+    width: 60%;
     height: 100px;
     line-height: 100px;
     position: absolute;
@@ -1268,6 +1268,375 @@ input[type='radio'].radio:checked + .radio {
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px; 
 }
+
+.onoffswitch1 {
+    position: relative; 
+    width: 220px;
+    top: 50px;
+    float: right;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
+}
+.onoffswitch1-checkbox {
+    display: none;
+}
+
+.onoffswitch1-label {
+    display: block; 
+    overflow: hidden; 
+    border: 4px solid #fff; 
+    border-radius: 55px;
+}
+.onoffswitch1-inner {
+    display: block; 
+    width: 200%; 
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch1-inner:before, .onoffswitch1-inner:after {
+    display: block; 
+    float: left; 
+    width: 50%; 
+    height: 100px; 
+    padding: 0; 
+    line-height: 100px;
+    font-size: 30pt; 
+    color: #000; 
+    font-family: Arial; 
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch1-inner:before {
+    content: "ON";
+    padding-left: 25px;
+    background-color: #1e4f48; 
+    color: #fff;
+}
+.onoffswitch1-inner:after {
+    content: "OFF";
+    padding-right: 20px;
+    background-color: #fff; 
+    color: #338378;
+    text-align: right;
+}
+.onoffswitch1-switch {
+    display: block; 
+    width: 70px; 
+    height: 70px;
+    margin: 15px;
+    background: #1fbba6;
+    position: absolute; 
+    top: 0; 
+    bottom: 0;
+    right: 115px;
+    border: 4px solid #338378; 
+    border-radius: 45px;
+    transition: all 0.3s ease-in 0s; 
+}
+
+.onoffswitch1-checkbox:checked + .onoffswitch1-label .onoffswitch1-inner {
+    margin-left: 0;
+}
+.onoffswitch1-checkbox:checked + .onoffswitch1-label .onoffswitch1-switch {
+    right: 0px; 
+}
+
+.onoffswitch2 {
+    position: relative; 
+    width: 220px;
+    top: 50px;
+    float: right;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
+}
+.onoffswitch2-checkbox {
+    display: none;
+}
+
+.onoffswitch2-label {
+    display: block; 
+    overflow: hidden; 
+    border: 4px solid #fff; 
+    border-radius: 55px;
+}
+.onoffswitch2-inner {
+    display: block; 
+    width: 200%; 
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch2-inner:before, .onoffswitch2-inner:after {
+    display: block; 
+    float: left; 
+    width: 50%; 
+    height: 100px; 
+    padding: 0; 
+    line-height: 100px;
+    font-size: 30pt; 
+    color: #000; 
+    font-family: Arial; 
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch2-inner:before {
+    content: "ON";
+    padding-left: 25px;
+    background-color: #1e4f48; 
+    color: #fff;
+}
+.onoffswitch2-inner:after {
+    content: "OFF";
+    padding-right: 20px;
+    background-color: #fff; 
+    color: #338378;
+    text-align: right;
+}
+.onoffswitch2-switch {
+    display: block; 
+    width: 70px; 
+    height: 70px;
+    margin: 15px;
+    background: #1fbba6;
+    position: absolute; 
+    top: 0; 
+    bottom: 0;
+    right: 115px;
+    border: 4px solid #338378; 
+    border-radius: 45px;
+    transition: all 0.3s ease-in 0s; 
+}
+
+.onoffswitch2-checkbox:checked + .onoffswitch2-label .onoffswitch2-inner {
+    margin-left: 0;
+}
+.onoffswitch2-checkbox:checked + .onoffswitch2-label .onoffswitch2-switch {
+    right: 0px; 
+}
+
+
+
+
+.onoffswitch3 {
+    position: relative; 
+    width: 220px;
+    top: 50px;
+    float: right;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select: none;
+}
+.onoffswitch3-checkbox {
+    display: none;
+}
+
+.onoffswitch3-label {
+    display: block; 
+    overflow: hidden; 
+    border: 4px solid #fff; 
+    border-radius: 55px;
+}
+.onoffswitch3-inner {
+    display: block; 
+    width: 200%; 
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch3-inner:before, .onoffswitch3-inner:after {
+    display: block; 
+    float: left; 
+    width: 50%; 
+    height: 100px; 
+    padding: 0; 
+    line-height: 100px;
+    font-size: 30pt; 
+    color: #000; 
+    font-family: Arial; 
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch3-inner:before {
+    content: "ON";
+    padding-left: 25px;
+    background-color: #1e4f48; 
+    color: #fff;
+}
+.onoffswitch3-inner:after {
+    content: "OFF";
+    padding-right: 20px;
+    background-color: #fff; 
+    color: #338378;
+    text-align: right;
+}
+.onoffswitch3-switch {
+    display: block; 
+    width: 70px; 
+    height: 70px;
+    margin: 15px;
+    background: #1fbba6;
+    position: absolute; 
+    top: 0; 
+    bottom: 0;
+    right: 115px;
+    border: 4px solid #338378; 
+    border-radius: 45px;
+    transition: all 0.3s ease-in 0s; 
+}
+
+.onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-inner {
+    margin-left: 0;
+}
+.onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-switch {
+    right: 0px; 
+}
+
+
+.SoundSlider{
+    width: 84%;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    top:50px;
+    font-size: 24pt;
+}
+
+.Soundmin{
+    width: 50px;
+    height: 50px;
+    background-image: url(images/soundmix.png);
+    background-size: Cover;
+    position: absolute;
+    top:27px;
+}
+
+.Soundmax{
+    width: 50px;
+    height: 50px;
+    background-image: url(images/soundmax.png);
+    background-size: Cover;
+    position: absolute;
+    right: 0;
+    top:27px;
+}
+
+.SoundSliderBar{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.SoundSliderBar input{
+    width: 100%;
+    height: 100px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 100px;
+  background-color: #338378;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 30px;
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  background: #fff;
+  border-radius: 25px;
+  border: 0px solid #000101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  border: 10px solid #1e4f48;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  background: #1fbba6;
+  -webkit-appearance: none;
+  margin-top: -25px;
+}
+
+
+
+
+
+/*Help&Feedback*/
+.HelpFeedback{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    font-family: Helvetica;
+    font-size: 34pt;
+    color: #FFF;
+    position: relative;
+    top:50px;
+}
+
+.HelpFeedbackText{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    top:50px;
+    background-color: #fff;
+}
+
+.ReplyEmail{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    font-family: Helvetica;
+    font-size: 34pt;
+    color: #FFF;
+    position: relative;
+    top:120px;
+}
+
+.ReplyEmailAddress{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    border:0;
+    position: relative;
+    top:120px;
+}
+
+.ReplyEmailAddress input{
+    width: 91%;
+    height: 100px;
+    background-color: #fff;
+    border-style: solid;
+    font-family: Arial;
+    font-size: 36pt;
+    color: #a4a4a4;
+    border-width: 10px;
+    border-color: transparent;
+}
+
+.ReplyEmailAddress input:focus{
+    border-width: 10px;
+    border-color: #1fbba6;
+}
+
+.SentBtn{
+    width: 80%;
+    height: 150px;
+    background-color: #fff;
+    color: #1fbba6;
+    font-family: Helvetica;
+    font-size: 42pt;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 150px;
+    position: relative;
+    top: 200px;
+}
+
+
+
 
 
 
