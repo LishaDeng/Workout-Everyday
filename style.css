@@ -2197,12 +2197,43 @@ input[type=range]::-webkit-slider-thumb {
 .PlayVideo{
     width: 70px;
     height: 70px;
-    background-image: url(images/play.png);
-    background-size: Cover;
     margin: 0 auto;
     position: absolute;
     margin-left: 6%;
     margin-top: 50px;
+}
+
+
+
+.PlayVideo label { 
+
+}
+
+.PlayVideo input[type="checkbox"]{
+    display: none;
+}
+
+.PlayVideo input[type="checkbox"]+label {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+
+.PlayVideo label::before {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background:url(images/play.png) no-repeat;
+    background-size: Cover;
+    vertical-align: middle;
+    margin-right: 10px;
+    -webkit-box-sizing:border-box;
+}
+
+.PlayVideo input[type="checkbox"]:checked+label::before{
+    background:url(images/stop.png) no-repeat;
+    background-size: Cover;
 }
 
 .NextVideo{
