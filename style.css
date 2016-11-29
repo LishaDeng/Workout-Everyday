@@ -2080,8 +2080,8 @@ input[type=range]::-webkit-slider-thumb {
 
 .CourseDetailTitle{
     width: 90%;
-    height: 180px;
-    line-height: 180px;
+    height: 200px;
+    line-height: 200px;
     margin: 0 auto;
     font-family: Helvetica;
     font-size: 42pt;
@@ -2091,8 +2091,8 @@ input[type=range]::-webkit-slider-thumb {
 
 .CourseDetailInfo p{
     width: 90%;
-    height: 400px;
-    line-height: 50px;
+    height: 500px;
+    line-height: 60px;
     margin: 0 auto;
     font-family: Helvetica;
     font-size: 30pt;
@@ -2110,7 +2110,7 @@ input[type=range]::-webkit-slider-thumb {
     margin: 0 auto;
     line-height: 150px;
     position: relative;
-    top:50px;
+    top:250px;
 }
 
 
