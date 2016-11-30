@@ -528,7 +528,7 @@ h1{
 .SocailMediaButton2{
     width: 20%;
     height: 125px;
-    background: url(images/Instagram.png) no-repeat;
+    background: url(images/Wechat.png) no-repeat;
     background-size: Cover;
     position: relative;
     float: left;
@@ -648,6 +648,272 @@ h1{
     line-height: 180px;
     position: relative;
 }
+
+/*Facebook Login*/
+.FacebookLogin{
+    width: 100%;
+    height: 1743px;
+    position: absolute;
+    background: url(images/FacebookLogin.jpg) no-repeat;
+    background-size: cover;
+}
+
+.DoneGoQ1{
+    width: 180px;
+    height: 130px;
+    line-height: 130px;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 34pt;
+    text-align: center;
+    opacity: 0;
+}
+
+.GoQ1{
+    width: 92%;
+    height: 130px;
+    line-height: 130px;
+    margin: 0 auto;
+    position: relative;
+    top: 520px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 34pt;
+    text-align: center;
+    opacity: 0;
+}
+
+.GoAccountLogin{
+    width: 92%;
+    height: 130px;
+    line-height: 130px;
+    margin: 0 auto;
+    position: relative;
+    top: 730px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 34pt;
+    text-align: center;
+    opacity: 0;
+}
+
+
+/*Google Login*/
+
+.GoogleLogin{
+    width: 100%;
+    height: 1743px;
+    position: absolute;
+    background: url(images/GoogleLogin.jpg) no-repeat;
+    background-size: cover;
+}
+
+.GoogleEmail{
+    width: 76%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 770px;
+    background-color: #fff;
+}
+
+.GoogleEmail input{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+    border-width: 0;
+    outline: none;
+    font-family: Arial;
+    font-size: 32pt;
+    color: #a9a9a9;
+}
+
+.GoogleNext{
+    width: 80%;
+    height: 130px;
+    line-height: 130px;
+    margin: 0 auto;
+    position: relative;
+    top: 815px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 34pt;
+    text-align: center;
+    opacity: 0;
+}
+
+.GoAccountLogin{
+    width: 92%;
+    height: 130px;
+    line-height: 130px;
+    margin: 0 auto;
+    position: relative;
+    top: 730px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 34pt;
+    text-align: center;
+    opacity: 0;
+}
+
+.GoogleGoCreatAccount{
+    width: 30%;
+    height: 130px;
+    line-height: 130px;
+    margin: 0 auto;
+    position: relative;
+    top: 1030px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 34pt;
+    text-align: center;
+    opacity: 0;
+}
+
+
+.GoogleLoginPassword{
+    width: 100%;
+    height: 1743px;
+    position: absolute;
+    background: url(images/GoogleLoginP.jpg) no-repeat;
+    background-size: cover;
+}
+
+.GoGoogleLoginEmail{
+    width: 15%;
+    height: 130px;
+    line-height: 130px;
+    margin-left: 40px;
+    position: relative;
+    top: 437px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 34pt;
+    text-align: center;
+    opacity: 0;
+}
+
+.GooglePassword{
+    width: 76%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 728px;
+    background-color: #fff;
+}
+
+.GooglePassword input{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+    border-width: 0;
+    outline: none;
+    font-family: Arial;
+    font-size: 32pt;
+    color: #a9a9a9;
+}
+
+.GoogleSignIn{
+    width: 80%;
+    height: 130px;
+    line-height: 130px;
+    margin: 0 auto;
+    position: relative;
+    top: 760px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 34pt;
+    text-align: center;
+    opacity: 0;
+}
+
+.GooglePasswordGoCreatAccount{
+    width: 70%;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 925px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 34pt;
+    text-align: center;
+    opacity: 0;
+}
+
+
+/*Wechat Login*/
+
+.WechatLogin{
+    width: 100%;
+    height: 1743px;
+    position: absolute;
+    background: url(images/WechatLogin.jpg) no-repeat;
+    background-size: cover;
+}
+
+.WechatGoBack{
+    width: 200px;
+    height: 120px;
+    line-height: 120px;
+    margin-left: 15px;
+    position: absolute;
+    top: 10px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 34pt;
+    text-align: center;
+    opacity: 0;
+}
+
+.WechatRetry{
+    width: 200px;
+    height: 120px;
+    line-height: 120px;
+    margin-right: : 15px;
+    position: relative;
+    float: right;
+    top: 10px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 34pt;
+    text-align: center;
+    opacity: 0;
+}
+
+.WechatFinish{
+    width: 80%;
+    height: 130px;
+    line-height: 130px;
+    margin: 0 auto;
+    position: relative;
+    top: 1300px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 34pt;
+    text-align: center;
+    opacity: 0;
+}
+
 
 
 
