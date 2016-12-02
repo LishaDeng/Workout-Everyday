@@ -97,3 +97,5 @@ function closeCamera() {
     document.getElementById("myCameraPhoto").style.width = "0";
 }
 /*打开相机*/
+
+
