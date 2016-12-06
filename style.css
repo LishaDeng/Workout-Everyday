@@ -3580,7 +3580,19 @@ input[type=range]::-webkit-slider-thumb {
     top: 1090px;
 }
 
-.TakePhotoButton{
+.TakePhotoButton1{
+    width: 100%;
+    height: 150px;
+    line-height: 150px;
+    background-color: #fff;
+    font-family: Helvetica;
+    font-size: 40pt;
+    text-align: center;
+    position: relative;
+    top:2px;
+}
+
+.TakePhotoButton2{
     width: 100%;
     height: 150px;
     line-height: 150px;
