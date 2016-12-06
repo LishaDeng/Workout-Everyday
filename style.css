@@ -172,6 +172,7 @@ text-align: center;
     width: 70px;
     height: 63px;
     background-image: url(images/HamburgerMenu.png);
+    background-size: Cover;
     position: absolute;
     left: 32px;
     top: 35px;
