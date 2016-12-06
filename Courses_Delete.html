@@ -4,6 +4,8 @@
     <title></title>
     <link rel="stylesheet" href="style.css"/>
     <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!--添加jquery-->  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
   </head>
 
@@ -20,7 +22,7 @@
 			</div>
 			<div class="MyCoursesList">
 				<div class="MyCoursesListItem">
-					<a href="My_Plan_Video1.html" class="MyCoursesName">STRENGTH</a>
+					<a href="My_Plan_Video1.html" class="MyCoursesName">STRENGHT</a>
 					<a href="My_Plan_Video1.html" class="MyCoursesButton"></a>
 				</div>
 				<div class="MyCoursesListItem">
@@ -28,8 +30,16 @@
 					<a href="My_Plan_Video1.html" class="MyCoursesButton"></a>
 				</div>
 				<div class="MyCoursesListItem">
-					<a href="My_Plan_Video1.html" class="MyCoursesName">Full Body</a>
+					<a href="My_Plan_Video1.html" class="MyCoursesName">YOGA</a>
 					<a href="My_Plan_Video1.html" class="MyCoursesButton"></a>
+					<!--添加一个删除按钮-->
+                    <button  onClick="$(this).parent().remove()" style="    width: 170px;
+    					height: 130px;
+					    position: absolute;
+					    top: 0px;
+					    right: 0px;
+					    background-image: url(images/delete.png);
+				        background-size: Cover;"></button>
 				</div>
 			</div>
 		</div>
@@ -45,13 +55,13 @@
 					<a href="More_Courses1.html" class="MoreCoursesPic1"></a>
 				</div>
 				<div class="MoreCoursesListItem">
-					<a href="More_Courses1.html" class="MoreCoursesPic2"></a>
+					<a href="More_Courses2.html" class="MoreCoursesPic2"></a>
 				</div>
 				<div class="MoreCoursesListItem">
-					<a href="More_Courses1.html" class="MoreCoursesPic3"></a>
+					<a href="More_Courses3.html" class="MoreCoursesPic3"></a>
 				</div>
 				<div class="MoreCoursesListItem">
-					<a href="More_Courses1.html" class="MoreCoursesPic4"></a>
+					<a href="More_Courses4.html" class="MoreCoursesPic4"></a>
 				</div>
 			</div>
 		</div>
