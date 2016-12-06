@@ -2007,7 +2007,7 @@ input[type=range]::-webkit-slider-thumb {
     border-style: solid;
     font-family: Arial;
     font-size: 36pt;
-
+    color: #a4a4a4;
     border-width: 10px;
     border-color: transparent;
 }
