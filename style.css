@@ -172,7 +172,6 @@ text-align: center;
     width: 70px;
     height: 63px;
     background-image: url(images/HamburgerMenu.png);
-    background-size: Cover;
     position: absolute;
     left: 32px;
     top: 35px;
@@ -923,11 +922,11 @@ h1{
 }
 
 .GooglePassword{
-    width: 76%;
-    height: 100px;
+    width: 74%;
+    height: 95px;
     margin: 0 auto;
     position: relative;
-    top: 728px;
+    top: 725px;
     background-color: #fff;
 }
 
