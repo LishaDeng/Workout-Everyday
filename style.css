@@ -3460,6 +3460,13 @@ input[type=range]::-webkit-slider-thumb {
     background-size: Cover;
 }
 
+.PostImageGNC{
+    width:100%;
+    height: 500px;
+    background-image: url(images/GNC.jpg);
+    background-size: Cover;
+}
+
 .PostInsideLine{
     width: 94%;
     height: 3px;
@@ -3542,6 +3549,46 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .like input[type="checkbox"]:checked+label::before{
+    background:url(images/likedPoster.png) no-repeat;
+    background-size: Cover;
+}
+
+.like1{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    float: right;
+    margin-right: 5%;
+    margin-left: 20%;
+}
+
+.like1 label { 
+
+}
+
+.like1 input[type="checkbox"]{
+    display: none;
+}
+
+.like1 input[type="checkbox"]+label {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+
+.like1 label::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background:url(images/likePoster.png) no-repeat;
+    background-size: Cover;
+    vertical-align: middle;
+    margin-right: 10px;
+    -webkit-box-sizing:border-box;
+}
+
+.like1 input[type="checkbox"]:checked+label::before{
     background:url(images/likedPoster.png) no-repeat;
     background-size: Cover;
 }
